@@ -54,7 +54,7 @@
 \thispagestyle{empty}
 \begin{center}
     \begin{center}
-    \includegraphics{logotipos/DcompIfma.png}
+        \includegraphics{logotipos/DcompIfma.png}
     \end{center}
     \singlespacing
     \textbf{INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO}\\
@@ -83,14 +83,14 @@
 \end{center}
 
 \begin{flushright}
-\begin{minipage}{0.6\textwidth}
-\justifying
-\noindent
-Projeto de Trabalho de Conclusão de Curso apresentado à disciplina \textbf{Monografia I}, ministrada pelo Prof. Dr. Hélder Pereira Borges, como requisito básico para o Trabalho de Conclusão de Curso.\\[0.25cm]
+    \begin{minipage}{0.6\textwidth}
+        \justifying
+        \noindent
+        Projeto de Trabalho de Conclusão de Curso apresentado à disciplina \textbf{Monografia I}, ministrada pelo Prof. Dr. Hélder Pereira Borges, como requisito básico para o Trabalho de Conclusão de Curso.\\[0.25cm]
 
-\noindent
-Orientadora: Profa. Dra. Eveline de Jesus Viana Sá
-\end{minipage}
+        \noindent
+        Orientadora: Profa. Dra. Eveline de Jesus Viana Sá
+    \end{minipage}
 \end{flushright}
 
 \vfill
@@ -99,7 +99,6 @@ Orientadora: Profa. Dra. Eveline de Jesus Viana Sá
     \textbf{2025}
 \end{center}
 
-
 % ---------------------------------------------------------------
 % RESUMO
 % ---------------------------------------------------------------
@@ -107,22 +106,22 @@ Orientadora: Profa. Dra. Eveline de Jesus Viana Sá
 \thispagestyle{empty}
 \section*{RESUMO}
 \begin{singlespace} % espaçamento simples conforme NBR 6028
-\justifying
-Este trabalho apresenta o desenvolvimento de um aplicativo móvel voltado ao turismo inclusivo, O objetivo é oferecer recomendações personalizadas de pontos turísticos (PTs) adaptadas às necessidades de pessoas idosas e com deficiência, promovendo acessibilidade e inclusão digital. Fundamentado no modelo psicológico Big Five Inventory (BFI), o sistema considera traços de personalidade, preferências e motivações de viagem para gerar recomendações mais precisas e relevantes. Diferentemente das abordagens convencionais, que se limitam a fatores demográficos ou históricos de navegação, esta proposta busca compreender o perfil psicológico do usuário e suas limitações específicas, aprimorando a experiência turística de forma personalizada. O aplicativo busca integrar o sistema de recomendação desenvolvido em projeto de iniciação científica, inspirado no sistema de recomendação para grupos GrouPlanner, por sua vez implementado em Python, possibilitando a recomendação de pontos turísticos adequadas ao público idoso. Espera-se que a aplicação contribua para o fortalecimento da inclusão social e digital de pessoas idosas e com deficiência, ampliando sua participação em atividades turísticas e culturais e promovendo o acesso equitativo à esses locais.
+    \justifying
+    Este trabalho apresenta o desenvolvimento de um aplicativo móvel voltado ao turismo inclusivo, O objetivo é oferecer recomendações personalizadas de pontos turísticos (PTs) adaptadas às necessidades de pessoas idosas e com deficiência, promovendo acessibilidade e inclusão digital. Fundamentado no modelo psicológico Big Five Inventory (BFI), o sistema considera traços de personalidade, preferências e motivações de viagem para gerar recomendações mais precisas e relevantes. Diferentemente das abordagens convencionais, que se limitam a fatores demográficos ou históricos de navegação, esta proposta busca compreender o perfil psicológico do usuário e suas limitações específicas, aprimorando a experiência turística de forma personalizada. O aplicativo busca integrar o sistema de recomendação desenvolvido em projeto de iniciação científica, inspirado no sistema de recomendação para grupos GrouPlanner, por sua vez implementado em Python, possibilitando a recomendação de pontos turísticos adequadas ao público idoso. Espera-se que a aplicação contribua para o fortalecimento da inclusão social e digital de pessoas idosas e com deficiência, ampliando sua participação em atividades turísticas e culturais e promovendo o acesso equitativo à esses locais.
 
-\bigskip
-\noindent\textbf{Palavras-chave:} Aplicação mobile. Sistema de recomendação. Idoso. Turismo inclusivo. Acessibilidade.
+    \bigskip
+    \noindent\textbf{Palavras-chave:} Aplicação mobile. Sistema de recomendação. Idoso. Turismo inclusivo. Acessibilidade.
 \end{singlespace}
 
 \newpage
 \thispagestyle{empty}
 \section*{Abstract}
 \begin{singlespace} % espaçamento simples conforme NBR 6028
-\justifying
-This work presents the development of a mobile application focused on inclusive tourism. The objective is to offer personalized recommendations of tourist attractions (TAs) adapted to the needs of elderly people and people with disabilities, promoting accessibility and digital inclusion. Based on the Big Five Inventory (BFI) psychological model, the system considers personality traits, preferences, and travel motivations to generate more accurate and relevant recommendations. Unlike conventional approaches, which are limited to demographic factors or browsing history, this proposal seeks to understand the user's psychological profile and their specific limitations, improving the tourist experience in a personalized way. The application seeks to integrate the recommendation system developed in an undergraduate research project, inspired by the GrouPlanner group recommendation system, which in turn is implemented in Python, enabling the recommendation of tourist attractions suitable for the elderly public. It is expected that the application will contribute to strengthening the social and digital inclusion of elderly people and people with disabilities, expanding their participation in tourist and cultural activities and promoting equitable access to these places.
+    \justifying
+    This work presents the development of a mobile application focused on inclusive tourism. The objective is to offer personalized recommendations of tourist attractions (TAs) adapted to the needs of elderly people and people with disabilities, promoting accessibility and digital inclusion. Based on the Big Five Inventory (BFI) psychological model, the system considers personality traits, preferences, and travel motivations to generate more accurate and relevant recommendations. Unlike conventional approaches, which are limited to demographic factors or browsing history, this proposal seeks to understand the user's psychological profile and their specific limitations, improving the tourist experience in a personalized way. The application seeks to integrate the recommendation system developed in an undergraduate research project, inspired by the GrouPlanner group recommendation system, which in turn is implemented in Python, enabling the recommendation of tourist attractions suitable for the elderly public. It is expected that the application will contribute to strengthening the social and digital inclusion of elderly people and people with disabilities, expanding their participation in tourist and cultural activities and promoting equitable access to these places.
 
-\bigskip
-\noindent\textbf{Keywords:} Mobile Application. Recommendation System. Elderly. Inclusive Tourism. Accessibility.
+    \bigskip
+    \noindent\textbf{Keywords:} Mobile Application. Recommendation System. Elderly. Inclusive Tourism. Accessibility.
 
 \end{singlespace}
 
@@ -140,11 +139,25 @@ This work presents the development of a mobile application focused on inclusive 
 \newpage
 \section{Introdução}
 \justifying
-Em 2023 teve início o projeto de pós-doutorado intitulado "Uma análise do uso de IA na geração de rotas turísticas personalizadas para o público idoso: um estudo de caso no Projeto The Route", aprovado no Edital FAPEMA nº 15/2022, desenvolvido no Instituto Superior de Engenharia do Porto (ISEP/IPP), Portugal, de julho de 2023 a junho de 2024. O Projeto The Route \cite{faria2019theroute} evoluiu para o GrouPlanner \cite{alves2022grouplanner}, coordenado pelo GECAD/ISEP-IPP, incorporando recomendações de roteiros para grupos baseadas nos traços de personalidade do modelo Big Five \cite{Costa1992}) e técnicas de negociação para lidar com heterogeneidade grupal na região do Porto e norte de Portugal \cite{alves2024dynamicclustering}. Posteriormente, surgiu o SmarTravel, projeto internacional que integra Inteligência Artificial, Realidade Aumentada e Blockchain para transformar a experiência turística através de recomendações personalizadas, itinerários otimizados e segurança de dados, reunindo um consórcio de instituições acadêmicas e empresariais da Turquia, Portugal, Espanha e Romênia, com o ISEP/GECAD/LASI liderando o desenvolvimento do motor de recomendação de pontos de interesse (Yöndem et al., 2023).
+Em 2023 teve início o projeto de pós-doutorado intitulado "Uma análise do uso de IA na geração de rotas turísticas personalizadas para o público idoso: um estudo de caso no Projeto The Route", aprovado no Edital FAPEMA nº 15/2022, desenvolvido no Instituto Superior de Engenharia do Porto (ISEP/IPP), Portugal, de julho de 2023 a junho de 2024. O Projeto The Route \cite{faria2019theroute} evoluiu para o GrouPlanner \cite{alves2022grouplanner}, coordenado pelo GECAD/ISEP-IPP, incorporando recomendações de roteiros para grupos baseadas nos traços de personalidade do modelo Big Five \cite{Costa1992} e técnicas de negociação para lidar com heterogeneidade grupal na região do Porto e norte de Portugal \cite{alves2023group}. Posteriormente, surgiu o SmarTravel, projeto internacional que integra Inteligência Artificial, Realidade Aumentada e Blockchain para transformar a experiência turística através de recomendações personalizadas, itinerários otimizados e segurança de dados, reunindo um consórcio de instituições acadêmicas e empresariais da Turquia, Portugal, Espanha e Romênia, com o ISEP/GECAD/LASI liderando o desenvolvimento do motor de recomendação de pontos de interesse \cite{yondem2023smarttravel}.
 
-Inspirado nesse contexto e na evolução das pesquisas conduzidas pelo ISEP-IPP, o presente trabalho propõe a continuidade e adaptação desses avanços tecnológicos por meio do desenvolvimento do aplicativo Persona Tour. O objetivo central consiste em integrar o sistema de recomendação turística, previamente desenvolvido em projeto de iniciação científica, a uma plataforma mobile voltada ao turismo inclusivo, com especial atenção às necessidades do público idoso. O Persona Tour visa oferecer uma experiência turística personalizada, acessível e sensível às limitações e preferências do usuário, utilizando algoritmos baseados no modelo psicológico BFI (Big Five Inventory – BFI) e no algoritmo d-means, derivados do GrouPlanner.
+Inspirado nesse contexto e na evolução das pesquisas conduzidas pelo ISEP-IPP,
+o presente trabalho propõe a continuidade e adaptação desses avanços
+tecnológicos por meio do desenvolvimento do aplicativo para o serviço Persona
+Tour. O objetivo central consiste em integrar o sistema de recomendação
+turística que foi previamente desenvolvido em projeto de iniciação científica,
+a uma plataforma mobile voltada ao turismo acessível, com especial atenção às
+necessidades do público idoso. O Persona Tour visa oferecer uma experiência
+turística personalizada, acessível e sensível às limitações e preferências do
+usuário, utilizando algoritmos baseados no modelo psicológico BFI (Big Five
+Inventory – BFI) e no algoritmo d-means, aliado a um aplicativo móvel.
 
-Assim, o Persona Tour configura-se como uma evolução metodológica e tecnológica no campo do turismo inclusivo, combinando algoritmos de recomendação não supervisionada com princípios de design centrado no usuário. O projeto dialoga com políticas públicas de inclusão social, respondendo a uma demanda crescente por soluções tecnológicas humanizadas, que considerem as diversidades físicas, cognitivas e emocionais dos indivíduos. Ao integrar ciência de dados, psicologia e acessibilidade digital, esta pesquisa busca contribuir para a construção de um turismo mais justo, participativo e sustentável.
+Deste modo este trabalho configura-se como uma evolução metodológica e
+tecnológica no campo do turismo acessível, combinando algoritmos de
+recomendação não supervisionada com princípios de design centrado no usuário. O
+projeto dialoga com políticas públicas de inclusão social, respondendo a uma
+demanda crescente por soluções tecnológicas humanizadas, que considerem as
+diversidades físicas, cognitivas e emocionais dos indivíduos.
 
 % ---------------------------------------------------------------
 % 1.1 PROBLEMA
@@ -152,8 +165,7 @@ Assim, o Persona Tour configura-se como uma evolução metodológica e tecnológ
 \newpage
 \subsection{Problema}
 \justifying
-A acessibilidade é um fator decisivo para a efetiva inclusão no turismo (UNWTO, 2013; UNWTO, 2016) e, ainda assim, permanece como um dos aspectos menos contemplados pelos sistemas de recomendação atuais (SANTOS et al., 2019). Para turistas com deficiência ou mobilidade reduzida, não basta apenas saber “o que visitar”, mas se os locais dispõem de recursos como rampas, banheiros adaptados, piso tátil, sinalização adequada ou rotas sem degraus, informações que raramente aparecem nos catálogos disponíveis de forma confiável e comparável. Essa lacuna gera barreiras à autonomia dos viajantes e reduz o interesse em locais que não evidenciam informações sobre acessibilidade. Nesse sentido, a personalização aliada à acessibilidade torna-se essencial para melhorar a experiência turística e ampliar a competitividade econômica do setor (Silva, 2023).
-
+A acessibilidade é um fator decisivo para a efetiva inclusão no turismo \cite{unwto2016manual} e, ainda assim, permanece como um dos aspectos menos contemplados pelos sistemas de recomendação atuais \cite{santos2019poiaccessibility}. Para turistas com deficiência ou mobilidade reduzida, não basta apenas saber “o que visitar”, mas se os locais dispõem de recursos como rampas, banheiros adaptados, piso tátil, sinalização adequada ou rotas sem degraus, informações que raramente aparecem nos catálogos disponíveis de forma confiável e comparável. Essa lacuna gera barreiras à autonomia dos viajantes e reduz o interesse em locais que não evidenciam informações sobre acessibilidade. Nesse sentido, a personalização aliada à acessibilidade torna-se essencial para melhorar a experiência turística e ampliar a competitividade econômica do setor \cite{Silva2023}.
 
 % ---------------------------------------------------------------
 % 1.2 JUSTIFICATIVA
@@ -161,10 +173,20 @@ A acessibilidade é um fator decisivo para a efetiva inclusão no turismo (UNWTO
 \newpage
 \subsection{Justificativa}
 \justifying
-Este trabalho parte da abordagem proposta por Alves (2024), que apresenta o algoritmo d-means aplicado ao turismo em conjunto com o modelo Big Five Inventory (BFI), demonstrando o potencial da inteligência artificial para formar grupos homogêneos a partir de perfis psicológicos. Avançando nesse caminho, a presente proposta insere a acessibilidade como eixo central da personalização, transformando informações sobre barreiras e recursos em sinais processados pelo algoritmo para a recomendação de pontos turísticos coesos com o usuário. Assim, não apenas pontos turísticos são sugeridos, mas condições de acessibilidade do local, considerando janelas de funcionamento, deslocamentos e preferências individuais do usuário e do grupo.
-Assim, o projeto justifica-se pela necessidade de superar as limitações dos recomendadores tradicionais, que priorizam popularidade e cliques, mas desconsideram variáveis críticas de inclusão (Azambuja; Morais; Filipe, 2021). Social e legalmente, a proposta materializa princípios da Lei Brasileira de Inclusão ao trazer a acessibilidade para o centro do processo decisório, academicamente, contribui para a inovação em sistemas de necessidade social (BRASIL, 2014; BRASIL, 2015).
-Diante desse contexto, a proposta do Persona Tour justifica-se pela necessidade de promover a inclusão digital e social da pessoa idosa e da pessoa com deficiência no turismo, utilizando a tecnologia como mediadora de experiências significativas, seguras e adaptadas às suas limitações e interesses. O aplicativo busca não apenas recomendar destinos e pontos de interesse, mas também compreender o perfil psicológico e comportamental do usuário, propondo roteiros compatíveis com suas motivações, nível de atividade e preferências categóricas. Além disso, a interface do aplicativo foca em ser acessível, com elementos visuais, tipográficos e interativos adaptados à ergonomia e à usabilidade de pessoas idosas, contribuindo para a redução das barreiras de acesso à informação turística.
+Este trabalho parte da abordagem proposta por \cite{Alves2024}, que apresenta o algoritmo d-means aplicado ao turismo em conjunto com o modelo Big Five Inventory (BFI), demonstrando o potencial da inteligência artificial para formar grupos homogêneos a partir de perfis psicológicos. Avançando nesse caminho, a presente proposta insere a acessibilidade como eixo central da personalização, transformando informações sobre barreiras e recursos em sinais processados pelo algoritmo para a recomendação de pontos turísticos coesos com o usuário. Assim, não apenas pontos turísticos são sugeridos, mas condições de acessibilidade do local e preferências individuais do usuário e do grupo.
+Assim, o projeto justifica-se pela necessidade de superar as limitações dos recomendadores tradicionais, que priorizam popularidade e cliques, mas desconsideram variáveis críticas de inclusão \cite{Azambuja2021}. Social e legalmente, a proposta materializa princípios da Lei Brasileira de Inclusão ao trazer a acessibilidade para o centro do processo decisório, academicamente, contribui para a inovação em sistemas de necessidade social \cite{brasil2014turismoacessivel} \cite{brasil2015lei13146}.
 
+Diante desse contexto, a proposta do Persona Tour justifica-se pela necessidade
+de promover a inclusão digital e social da pessoa idosa e da pessoa com
+deficiência, no turismo, utilizando a tecnologia como mediadora de experiências
+significativas, seguras e adaptadas às suas limitações e interesses. O
+aplicativo busca não apenas recomendar destinos e pontos de interesse, mas
+também compreender o perfil psicológico e comportamental do usuário, propondo
+lugares compatíveis com suas motivações, nível de atividade e preferências
+categóricas. Além disso, a interface do aplicativo foca em ser acessível, com
+elementos visuais, tipográficos e interativos adaptados à ergonomia e à
+usabilidade de pessoas idosas, contribuindo para a redução das barreiras de
+acesso à informação turística.
 
 % ---------------------------------------------------------------
 % 1.3 OBJETIVOS
@@ -172,14 +194,21 @@ Diante desse contexto, a proposta do Persona Tour justifica-se pela necessidade 
 \newpage
 \subsection{Objetivos}
 \subsubsection{Objetivo Geral}
-Desenvolver o aplicativo Persona Tour integrado ao sistema de recomendação de pontos turísticos, delimitado na recomendação de pontos turísticos da cidade de São Luís, com foco na acessibilidade para idosos e pessoas com deficiência.
+Desenvolver o aplicativo móvel Persona Tour integrado ao sistema de
+recomendação de pontos turísticos, delimitado na recomendação de pontos
+turísticos da cidade de São Luís, com foco na acessibilidade para idosos e
+pessoas com deficiência.
 
 \subsubsection{Objetivos Específicos}
 \begin{itemize}
-    \item[a.]  Investigar técnicas de interface intuitiva para os usuários idosos;
-    \item[b.] Desenvolver uma API para integrar o sistema de recomendação ao aplicativo Persona Tour.
-    \item[c.] Implementar o aplicativo Persona Tour, oferecendo interface intuitiva que permita a visualização interativa de pontos turísticos.
-    \item[d.] Avaliar a eficácia do aplicativo por meio de testes com diferentes perfis de usuários, verificando a precisão das recomendações, a adequação às condições de acessibilidade e a percepção de usabilidade
+    \item[a.] Investigar técnicas de interface intuitiva para os usuários idosos;
+    \item[b.] Desenvolver uma API para integrar o sistema de recomendação ao aplicativo
+          Persona Tour.
+    \item[c.] Implementar o aplicativo móvel Persona Tour, oferecendo interface intuitiva
+          que permita a visualização interativa de pontos turísticos.
+    \item[d.] Avaliar a eficácia do aplicativo por meio de testes com diferentes perfis
+          de usuários, verificando a precisão das recomendações, a adequação às condições
+          de acessibilidade e a percepção de usabilidade
 \end{itemize}
 
 % ---------------------------------------------------------------
@@ -188,15 +217,15 @@ Desenvolver o aplicativo Persona Tour integrado ao sistema de recomendação de 
 \newpage
 \section{Referencial Teórico}
 \justifying
-Nesta seção são apresentadas as principais bases teóricas que fundamentam a pesquisa.  
-Os \textbf{Sistemas de Recomendação (SR)} visam sugerir itens de interesse com base em dados de usuários, comportamento e preferências.  
-O modelo psicológico \textbf{Big Five} (OCEAN) define cinco dimensões da personalidade humana: Abertura, Conscienciosidade, Extroversão, Amabilidade e Neuroticismo.  
-O algoritmo \textit{d-means}, derivado do \textit{k-means}, permite agrupar usuários com perfis semelhantes, favorecendo recomendações mais precisas.  
+Nesta seção são apresentadas as principais bases teóricas que fundamentam a pesquisa.
+Os \textbf{Sistemas de Recomendação (SR)} visam sugerir itens de interesse com base em dados de usuários, comportamento e preferências.
+O modelo psicológico \textbf{Big Five} (OCEAN) define cinco dimensões da personalidade humana: Abertura, Conscienciosidade, Extroversão, Amabilidade e Neuroticismo.
+O algoritmo \textit{d-means}, derivado do \textit{k-means}, permite agrupar usuários com perfis semelhantes, favorecendo recomendações mais precisas.
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.8\textwidth]{estrutura_sistema.png}
-\caption{Relação entre módulos do sistema proposto e componentes teóricos.}
+    \centering
+    %    \includegraphics[width=0.8\textwidth]{estrutura_sistema.png}
+    \caption{Relação entre módulos do sistema proposto e componentes teóricos.}
 \end{figure}
 
 % ---------------------------------------------------------------
@@ -205,19 +234,20 @@ O algoritmo \textit{d-means}, derivado do \textit{k-means}, permite agrupar usu�
 \newpage
 \section{Metodologia da Pesquisa}
 \justifying
-A metodologia define o caminho a ser seguido para alcançar os objetivos.  
+A metodologia define o caminho a ser seguido para alcançar os objetivos.
 Este estudo adota abordagem aplicada e natureza exploratória. As etapas incluem:
 \begin{enumerate}
-    \item Levantamento bibliográfico sobre turismo inclusivo e recomendação baseada em personalidade;
+    \item Levantamento bibliográfico sobre turismo inclusivo e recomendação baseada em
+          personalidade;
     \item Modelagem de dados e definição dos requisitos funcionais e não funcionais;
     \item Desenvolvimento do protótipo com interface amigável e adaptada à pessoa idosa;
     \item Testes e validação com base em perfis de usuários simulados.
 \end{enumerate}
 
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{fluxo_metodologia.png}
-\caption{Fluxo metodológico proposto.}
+    \centering
+    %    \includegraphics[width=0.85\textwidth]{fluxo_metodologia.png}
+    \caption{Fluxo metodológico proposto.}
 \end{figure}
 
 % ---------------------------------------------------------------
@@ -226,36 +256,33 @@ Este estudo adota abordagem aplicada e natureza exploratória. As etapas incluem
 \newpage
 \section{Cronograma}
 \begin{table}[H]
-\centering
-\begin{tabular}{|p{8cm}|c|c|c|c|}
-\hline
-\textbf{Atividade} & \textbf{Fev} & \textbf{Mar} & \textbf{Abr} & \textbf{Mai} \\
-\hline
-Levantamento bibliográfico & X & X &  &  \\
-\hline
-Modelagem do sistema &  & X & X &  \\
-\hline
-Desenvolvimento do protótipo &  &  & X & X \\
-\hline
-Redação e revisão do texto &  &  & X & X \\
-\hline
-\end{tabular}
-\caption{Cronograma de execução do pré-projeto.}
+    \centering
+    \begin{tabular}{|p{8cm}|c|c|c|c|}
+        \hline
+        \textbf{Atividade}           & \textbf{Fev} & \textbf{Mar} & \textbf{Abr} & \textbf{Mai} \\
+        \hline
+        Levantamento bibliográfico   & X            & X            &              &              \\
+        \hline
+        Modelagem do sistema         &              & X            & X            &              \\
+        \hline
+        Desenvolvimento do protótipo &              &              & X            & X            \\
+        \hline
+        Redação e revisão do texto   &              &              & X            & X            \\
+        \hline
+    \end{tabular}
+    \caption{Cronograma de execução do pré-projeto.}
 \end{table}
 
-% ---------------------------------------------------------------
-% 5 REFERÊNCIAS
-% ---------------------------------------------------------------
 % ---------------------------------------------------------------
 % 5 REFERÊNCIAS
 % ---------------------------------------------------------------
 \newpage
 \section{Referências}
 \begin{singlespace}
-\setlength\bibitemsep{10pt}   
-\sloppy
-%\nocite{*}
-\printbibliography[heading=bibintoc]
+    \setlength\bibitemsep{10pt}
+    \sloppy
+    %\nocite{*}
+    \printbibliography[heading=bibintoc]
 \end{singlespace}
 \end{document}
 
