@@ -64,7 +64,7 @@
 
     \textbf{PAULO HENRIQUE SILVA PINHEIRO}\\[4cm]
 
-    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo móvel integrado a um sistema de recomendação para turismo acessível com foco na pessoa idosa: Um estudo de caso Persona Tour}}\\[4cm]
+    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo móvel integrado a um sistema de recomendação para turismo acessível com foco na pessoa idosa: Estudo de caso Persona Tour}}\\[4cm]
 
     \vfill
     \textbf{SÃO LUÍS – MA}\\
@@ -79,7 +79,7 @@
 \begin{center}
     \textbf{PAULO HENRIQUE SILVA PINHEIRO}\\[3cm]
 
-    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo mobile integrando um sistema de recomendação para turismo inclusivo com foco na pessoa idosa: Um estudo de caso Persona Tour}}\\[2cm]
+    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo mobile integrando um sistema de recomendação para turismo inclusivo com foco na pessoa idosa: Estudo de caso Persona Tour}}\\[2cm]
 \end{center}
 
 \begin{flushright}
@@ -107,7 +107,7 @@
 \section*{RESUMO}
 \begin{singlespace} % espaçamento simples conforme NBR 6028
     \justifying
-    Este trabalho apresenta o desenvolvimento de um aplicativo móvel voltado ao turismo inclusivo, O objetivo é oferecer recomendações personalizadas de pontos turísticos (PTs) adaptadas às necessidades de pessoas idosas e com deficiência, promovendo acessibilidade e inclusão digital. Fundamentado no modelo psicológico Big Five Inventory (BFI), o sistema considera traços de personalidade, preferências e motivações de viagem para gerar recomendações mais precisas e relevantes. Diferentemente das abordagens convencionais, que se limitam a fatores demográficos ou históricos de navegação, esta proposta busca compreender o perfil psicológico do usuário e suas limitações específicas, aprimorando a experiência turística de forma personalizada. O aplicativo busca integrar o sistema de recomendação desenvolvido em projeto de iniciação científica, inspirado no sistema de recomendação para grupos GrouPlanner, por sua vez implementado em Python, possibilitando a recomendação de pontos turísticos adequadas ao público idoso. Espera-se que a aplicação contribua para o fortalecimento da inclusão social e digital de pessoas idosas e com deficiência, ampliando sua participação em atividades turísticas e culturais e promovendo o acesso equitativo à esses locais.
+    Este trabalho apresenta o desenvolvimento de um aplicativo móvel voltado ao turismo inclusivo, O objetivo é oferecer recomendações personalizadas de pontos turísticos (PTs) adaptadas às necessidades de pessoas idosas e com deficiência, para a cidade de São Luís - MA, promovendo acessibilidade e inclusão digital. Fundamentado no modelo psicológico Big Five Inventory (BFI), o sistema considera traços de personalidade, preferências e motivações de viagem para gerar recomendações mais precisas e relevantes a partir de um questionário. Diferentemente das abordagens convencionais, que se limitam somente a fatores demográficos ou históricos de navegação, esta proposta busca compreender o perfil psicológico do usuário e suas limitações específicas, aprimorando a experiência turística de forma personalizada. O aplicativo busca integrar o sistema de recomendação desenvolvido em projeto de iniciação científica, inspirado no sistema de recomendação para grupos GrouPlanner, por sua vez implementado em Python, possibilitando a recomendação de pontos turísticos adequadas ao público idoso. Espera-se que a aplicação contribua para o fortalecimento da inclusão social e digital de pessoas idosas e com deficiência, ampliando sua participação em atividades turísticas e culturais e promovendo o acesso equitativo à esses locais.
 
     \bigskip
     \noindent\textbf{Palavras-chave:} Aplicação mobile. Sistema de recomendação. Idoso. Turismo inclusivo. Acessibilidade.
@@ -139,18 +139,43 @@
 \newpage
 \section{Introdução}
 \justifying
-Em 2023 teve início o projeto de pós-doutorado intitulado "Uma análise do uso de IA na geração de rotas turísticas personalizadas para o público idoso: um estudo de caso no Projeto The Route", aprovado no Edital FAPEMA nº 15/2022, desenvolvido no Instituto Superior de Engenharia do Porto (ISEP/IPP), Portugal, de julho de 2023 a junho de 2024. O Projeto The Route \cite{faria2019theroute} evoluiu para o GrouPlanner \cite{alves2022grouplanner}, coordenado pelo GECAD/ISEP-IPP, incorporando recomendações de roteiros para grupos baseadas nos traços de personalidade do modelo Big Five \cite{Costa1992} e técnicas de negociação para lidar com heterogeneidade grupal na região do Porto e norte de Portugal \cite{alves2023group}. Posteriormente, surgiu o SmarTravel, projeto internacional que integra Inteligência Artificial, Realidade Aumentada e Blockchain para transformar a experiência turística através de recomendações personalizadas, itinerários otimizados e segurança de dados, reunindo um consórcio de instituições acadêmicas e empresariais da Turquia, Portugal, Espanha e Romênia, com o ISEP/GECAD/LASI liderando o desenvolvimento do motor de recomendação de pontos de interesse \cite{yondem2023smarttravel}.
+
+(TEXTO DO PROBLEMA)
+
+Em 2023 teve início o projeto de pós-doutorado intitulado "Uma análise do uso
+de IA na geração de rotas turísticas personalizadas para o público idoso: um
+estudo de caso no Projeto The Route", desenvolvido no Instituto Superior de
+Engenharia do Porto (ISEP/IPP), Portugal, de julho de 2023 a junho de 2024. O
+Projeto The Route \cite{faria2019theroute} evoluiu para o GrouPlanner
+\cite{alves2022grouplanner}, coordenado pelo GECAD/ISEP-IPP, incorporando
+recomendações de roteiros para grupos baseadas nos traços de personalidade do
+modelo Big Five \cite{Costa1992} e técnicas de negociação para lidar com
+heterogeneidade grupal na região do Porto e norte de Portugal
+\cite{alves2023group}.
 
 Inspirado nesse contexto e na evolução das pesquisas conduzidas pelo ISEP-IPP,
-o presente trabalho propõe a continuidade e adaptação desses avanços
-tecnológicos por meio do desenvolvimento do aplicativo para o serviço Persona
-Tour. O objetivo central consiste em integrar o sistema de recomendação
-turística que foi previamente desenvolvido em projeto de iniciação científica,
-a uma plataforma mobile voltada ao turismo acessível, com especial atenção às
-necessidades do público idoso. O Persona Tour visa oferecer uma experiência
-turística personalizada, acessível e sensível às limitações e preferências do
-usuário, utilizando algoritmos baseados no modelo psicológico BFI (Big Five
-Inventory – BFI) e no algoritmo d-means, aliado a um aplicativo móvel.
+Estudou-se a viabilidade de aplicar tais conceitos ao turismo acessível no
+Brasil, com ênfase na população idosa. Assim, um projeto de iniciação
+científica foi desenvolvido no Instituto Federal do Maranhão (IFMA) Campus São
+Luís - Monte CASTELO entre agosto de 2024 e agosto de 2025, intitulado "Um
+estudo sobre os algoritmos inteligentes utilizados no Sistema de Recomendação
+para Grupos aplicado ao Turismo: um estudo de caso do Projeto GrouPlanner" O
+projeto resultou na implementação de um sistema de recomendação o qual foi
+nomeado Pesona Tour, baseado no algoritmo \textit{d-means} \cite{Alves2024},
+adaptado para considerar aspectos de acessibilidade em pontos turísticos na
+cidade de São Luís - MA. O sistema utiliza o modelo BFI para agrupar usuários
+com perfis psicológicos semelhantes, recomendando pontos turísticos que atendam
+às suas preferências e necessidades específicas de acessibilidade. Com base nos
+resultados positivos obtidos nesse projeto inicial, o presente trabalho propõe
+a continuidade e adaptação desses avanços tecnológicos por meio do
+desenvolvimento do aplicativo para o serviço Persona Tour. O objetivo central
+consiste em desenvolver um aplicação móvel voltada ao turismo acessível que faz
+o uso do sistema de recomendação turística para obtenção dos pontos turísticos
+, com especial atenção às necessidades do público idoso.O aplicativo visa
+oferecer uma experiência turística personalizada, acessível e sensível às
+limitações e preferências do usuário, utilizando o modelo psicológico BFI (Big
+Five Inventory – BFI) e uma rede colaborativa dentro do App reforçando os
+recursos disponíveis em pontos turisitcos.
 
 Deste modo este trabalho configura-se como uma evolução metodológica e
 tecnológica no campo do turismo acessível, combinando algoritmos de
@@ -165,7 +190,26 @@ diversidades físicas, cognitivas e emocionais dos indivíduos.
 \newpage
 \subsection{Problema}
 \justifying
-A acessibilidade é um fator decisivo para a efetiva inclusão no turismo \cite{unwto2016manual} e, ainda assim, permanece como um dos aspectos menos contemplados pelos sistemas de recomendação atuais \cite{santos2019poiaccessibility}. Para turistas com deficiência ou mobilidade reduzida, não basta apenas saber “o que visitar”, mas se os locais dispõem de recursos como rampas, banheiros adaptados, piso tátil, sinalização adequada ou rotas sem degraus, informações que raramente aparecem nos catálogos disponíveis de forma confiável e comparável. Essa lacuna gera barreiras à autonomia dos viajantes e reduz o interesse em locais que não evidenciam informações sobre acessibilidade. Nesse sentido, a personalização aliada à acessibilidade torna-se essencial para melhorar a experiência turística e ampliar a competitividade econômica do setor \cite{Silva2023}.
+A acessibilidade é um fator decisivo para a efetiva inclusão no
+turismo \cite{unwto2016manual}. Para turistas com deficiência
+ou mobilidade reduzida, não basta apenas saber “o que visitar”,
+mas se os locais dispõem de recursos como rampas, banheiros
+adaptados, piso tátil, sinalização adequada ou rotas sem degraus,
+informações que raramente aparecem nos catálogos disponíveis de
+forma confiável e comparável. Essa lacuna gera barreiras à autonomia
+dos viajantes e reduz o interesse em locais que não evidenciam informações
+sobre acessibilidade. Ainda assim, o tema da acessibilidadepermanece como um dos
+aspectos menos contemplados pela maioria dos sistemas de
+recomendação turísticos atuais \cite{santos2019poiaccessibility}.
+Nesse sentido, a personalização aliada à acessibilidade
+torna-se essencial para melhorar a experiência turística e ampliar a
+competitividade econômica do setor \cite{Silva2023}
+
+Portanto, esta pesquisa se propõe a responder à seguinte indagação central:
+Como elaborar uma aplicação capaz de satisfazer as necessidades de pessoas com
+deficiência e idosos permitindo o acesso a informação de pontos turisitcos
+baseados em suas preferências e personalidade e promovendo a devida inclusão
+social, turística e digital?.
 
 % ---------------------------------------------------------------
 % 1.2 JUSTIFICATIVA
@@ -173,15 +217,26 @@ A acessibilidade é um fator decisivo para a efetiva inclusão no turismo \cite{
 \newpage
 \subsection{Justificativa}
 \justifying
-Este trabalho parte da abordagem proposta por \cite{Alves2024}, que apresenta o algoritmo d-means aplicado ao turismo em conjunto com o modelo Big Five Inventory (BFI), demonstrando o potencial da inteligência artificial para formar grupos homogêneos a partir de perfis psicológicos. Avançando nesse caminho, a presente proposta insere a acessibilidade como eixo central da personalização, transformando informações sobre barreiras e recursos em sinais processados pelo algoritmo para a recomendação de pontos turísticos coesos com o usuário. Assim, não apenas pontos turísticos são sugeridos, mas condições de acessibilidade do local e preferências individuais do usuário e do grupo.
-Assim, o projeto justifica-se pela necessidade de superar as limitações dos recomendadores tradicionais, que priorizam popularidade e cliques, mas desconsideram variáveis críticas de inclusão \cite{Azambuja2021}. Social e legalmente, a proposta materializa princípios da Lei Brasileira de Inclusão ao trazer a acessibilidade para o centro do processo decisório, academicamente, contribui para a inovação em sistemas de necessidade social \cite{brasil2014turismoacessivel} \cite{brasil2015lei13146}.
+Avançando nesse caminho, a presente proposta insere a acessibilidade como eixo
+central da personalização,
+transformando informações sobre barreiras e recursos em sinais processados pelo
+algoritmo para a recomendação de pontos turísticos coesos com o usuário. Assim,
+não apenas pontos turísticos são sugeridos, mas condições de acessibilidade do
+local e preferências individuais do usuário e do grupo.
+Com isso, o projeto justifica-se pela necessidade de superar as limitações dos
+recomendadores tradicionais, que priorizam popularidade e cliques,
+mas desconsideram variáveis críticas de inclusão \cite{Azambuja2021}.
+Social e legalmente, a proposta materializa princípios da Lei Brasileira de
+Inclusão ao trazer a acessibilidade para o centro do processo decisório
+, academicamente, contribui para a inovação em sistemas de necessidade
+social \cite{brasil2014turismoacessivel} \cite{brasil2015lei13146}.
 
 Diante desse contexto, a proposta do Persona Tour justifica-se pela necessidade
 de promover a inclusão digital e social da pessoa idosa e da pessoa com
 deficiência, no turismo, utilizando a tecnologia como mediadora de experiências
 significativas, seguras e adaptadas às suas limitações e interesses. O
 aplicativo busca não apenas recomendar destinos e pontos de interesse, mas
-também compreender o perfil psicológico e comportamental do usuário, propondo
+também compreender as preferências e necessidades de cada usuário, propondo
 lugares compatíveis com suas motivações, nível de atividade e preferências
 categóricas. Além disso, a interface do aplicativo foca em ser acessível, com
 elementos visuais, tipográficos e interativos adaptados à ergonomia e à
@@ -194,21 +249,20 @@ acesso à informação turística.
 \newpage
 \subsection{Objetivos}
 \subsubsection{Objetivo Geral}
-Desenvolver o aplicativo móvel Persona Tour integrado ao sistema de
-recomendação de pontos turísticos, delimitado na recomendação de pontos
-turísticos da cidade de São Luís, com foco na acessibilidade para idosos e
-pessoas com deficiência.
+Desenvolver um aplicativo móvel de recomendação de pontos turísticos,
+delimitado na recomendação de locais da cidade de São Luís, com foco na
+acessibilidade pessoas com deficiência e idosos.
 
 \subsubsection{Objetivos Específicos}
 \begin{itemize}
     \item[a.] Investigar técnicas de interface intuitiva para os usuários idosos;
     \item[b.] Desenvolver uma API para integrar o sistema de recomendação ao aplicativo
-          Persona Tour.
-    \item[c.] Implementar o aplicativo móvel Persona Tour, oferecendo interface intuitiva
-          que permita a visualização interativa de pontos turísticos.
+          móvel.
+    \item[c.] Implementar um mínimo produto viável do aplicativo móvel, oferecendo
+          interface intuitiva que permita a visualização interativa de pontos turísticos.
     \item[d.] Avaliar a eficácia do aplicativo por meio de testes com diferentes perfis
           de usuários, verificando a precisão das recomendações, a adequação às condições
-          de acessibilidade e a percepção de usabilidade
+          de acessibilidade e a percepção de usabilidade.
 \end{itemize}
 
 % ---------------------------------------------------------------
@@ -217,32 +271,458 @@ pessoas com deficiência.
 \newpage
 \section{Referencial Teórico}
 \justifying
-Nesta seção são apresentadas as principais bases teóricas que fundamentam a pesquisa.
-Os \textbf{Sistemas de Recomendação (SR)} visam sugerir itens de interesse com base em dados de usuários, comportamento e preferências.
-O modelo psicológico \textbf{Big Five} (OCEAN) define cinco dimensões da personalidade humana: Abertura, Conscienciosidade, Extroversão, Amabilidade e Neuroticismo.
-O algoritmo \textit{d-means}, derivado do \textit{k-means}, permite agrupar usuários com perfis semelhantes, favorecendo recomendações mais precisas.
+\subsection{Turismo Acessível e Acessibilidade}
 
-\begin{figure}[H]
-    \centering
-    %    \includegraphics[width=0.8\textwidth]{estrutura_sistema.png}
-    \caption{Relação entre módulos do sistema proposto e componentes teóricos.}
-\end{figure}
+O turismo representa uma das atividades econômicas e sociais mais importantes
+para países em desenvolvimento, funcionando como gerador de renda, emprego e
+intercâmbio cultural. Contudo, a participação igualitária nessa prática depende
+fundamentalmente da existência de infraestrutura e serviços adequados que
+considerem as necessidades específicas de pessoas com deficiência e mobilidade
+reduzida, incluindo idosos. A acessibilidade turística transcende a
+disponibilidade de rampas e banheiros adaptados; ela envolve um conceito mais
+amplo que contempla elementos informativos, comunicacionais, tecnológicos e
+atitudinais.
+
+Segundo dados recentes do Ministério do Turismo, mais de 53,5\% dos turistas
+com deficiência deixaram de viajar para algum destino no Brasil por falta de
+acessibilidade, revelando uma exclusão sistemática desse
+público~\cite{MTur2024}. O Brasil, embora reconhecido internacionalmente por
+suas belezas naturais, apresenta graves deficiências na operacionalização de
+políticas de turismo inclusivo, conforme demonstrado em análises de políticas
+públicas dos últimos 20 anos~\cite{Vilela2022}.
+
+Um caso emblemático dessa falha institucional é o ``Guia de Rodas'', projeto
+desenvolvido pelo próprio governo brasileiro para mapear acessibilidade em
+pontos turísticos. O aplicativo, embora bem-intencionado, apresenta limitações
+críticas: dados desatualizados, informações inconsistentes sobre acessibilidade
+real dos espaços, ausência de validação contínua pelas comunidades de pessoas
+com deficiência, e interface pouco acessível para o público idoso. Muitos
+pontos turísticos cadastrados como acessíveis carecem de infraestrutura
+essencial (rampas inadequadas, banheiros sem adaptações, falta de sinalização
+tátil), demonstrando que a presença de informação não garante qualidade de
+implementação.
+
+A Lei Brasileira de Inclusão da Pessoa com Deficiência (Lei 13.146/2015) e o
+Manual de Turismo Acessível da UNWTO estabelecem que acessibilidade é direito
+fundamental, não benefício~\cite{Brasil2015, UNWTO2016}. Entretanto, a
+implementação permanece lenta e desigual. O conceito de turismo acessível deve
+ser compreendido em múltiplas dimensões:
+
+\begin{itemize}
+    \item \textbf{Acessibilidade Arquitetônica}: Remoção de barreiras físicas (rampas adequadas com inclinação máxima de 8,33\%, corrimões, elevadores, pisos táteis, banheiros com espaço de manobra mínimo de 1,5m de diâmetro).
+
+    \item \textbf{Acessibilidade Comunicacional}: Disponibilidade de informações em formatos alternativos (Braille, áudio, linguagem simples, descrição de imagens), sinalização clara e legível, descrição de ambientes.
+
+    \item \textbf{Acessibilidade Atitudinal}: Treinamento de profissionais de turismo para atender com qualidade e respeito, compreensão da neurodiversidade e das diferentes formas de deficiência, valorização da autonomia do visitante.
+
+    \item \textbf{Acessibilidade Tecnológica}: Disponibilidade de recursos assistivos (leitores de tela, amplificadores, sistemas de amplificação de som), integração com tecnologias móveis, interfaces acessíveis em plataformas digitais.
+\end{itemize}
+
+\subsection{Sistemas de Recomendação no Turismo}
+
+Os Sistemas de Recomendação (SR) têm revolucionado a forma como os indivíduos
+descobrem produtos, serviços e informações em ambientes digitais. No contexto
+turístico, eles auxiliam viajantes a identificar pontos de interesse relevantes
+em meio à sobrecarga informacional, reduzindo significativamente o tempo de
+pesquisa e aumentando a qualidade da experiência~\cite{Resnick1997,
+    Santos2023}. Um sistema de recomendação funciona como intermediário entre a
+diversidade de ofertas turísticas e as preferências específicas de cada
+usuário, processando dados comportamentais, demográficos e psicológicos para
+gerar sugestões personalizadas.
+
+As abordagens tradicionais em Sistemas de Recomendação Turística baseiam-se
+predominantemente em duas técnicas: \textbf{filtragem colaborativa}, que
+identifica usuários com preferências similares e recomenda itens apreciados por
+esses ``vizinhos''; e \textbf{filtragem baseada em conteúdo}, que analisa
+características dos pontos turísticos (categoria, localização, características)
+e as compara com o perfil do usuário~\cite{Resnick1997}. Contudo, essas
+abordagens possuem limitações reconhecidas: a filtragem colaborativa sofre com
+o problema de ``partida a frio'' (poucos dados históricos de usuários novos),
+enquanto a filtragem por conteúdo tende a criar ``bolhas de informação'' que
+reduzem a serendipidade.
+
+O \textbf{GrouPlanner}~\cite{Alves2022, Alves2023}, desenvolvido pelo
+GECAD/ISEP-IPP (Grupo de Pesquisa em Engenharia Computacional de Sistemas
+Adaptativos Complexos do Instituto Superior de Engenharia do Porto), representa
+um avanço significativo ao incorporar \textbf{modelagem de personalidade} como
+base para recomendação. O GrouPlanner utiliza o modelo psicológico \textbf{Big
+    Five Inventory (BFI)}~\cite{Costa1992} para capturar os cinco principais traços
+de personalidade humana:
+
+\begin{enumerate}
+    \item \textbf{Abertura para Experiências}: Propensão para novelidade, criatividade e flexibilidade. Usuários com alta abertura buscam atrações inovadoras, culturais e desafiadoras.
+
+    \item \textbf{Conscienciosidade}: Organização, planejamento e atenção a detalhes. Influencia a preferência por roteiros estruturados e segurança.
+
+    \item \textbf{Extroversão}: Sociabilidade e busca por estimulação. Determina preferência por atividades em grupo, vida noturna ou contemplação solitária.
+
+    \item \textbf{Agradabilidade}: Orientação para cooperação e harmonia. Afeta disposição para turismo comunitário e experiências inclusivas.
+
+    \item \textbf{Neuroticismo}: Tendência para emoções negativas. Relaciona-se com sensibilidade a stress ambiental, necessidade de conforto e segurança.
+\end{enumerate}
+
+O BFI é implementado através de um questionário validado cientificamente
+(~\cite{Costa1992, Andrade2023}) que permite classificar usuários em um espaço
+multidimensional de personalidade. A principal inovação do GrouPlanner reside
+na aplicação do \textbf{algoritmo d-means}~\cite{Alves2024} para agrupar
+usuários com perfis psicológicos similares e gerar recomendações coletivas em
+contextos de grupo, negociando preferências heterogêneas de forma harmoniosa.
+
+Para o Persona Tour, a arquitetura de recomendação foi adaptada do GrouPlanner,
+incorporando uma dimensão crítica ausente em sistemas tradicionais:
+\textbf{modelagem de restrições de acessibilidade}. O sistema processa não
+apenas traços de personalidade, mas também informações sobre:
+
+\begin{itemize}
+    \item Tipo e grau de deficiência/mobilidade (cadeira de rodas, deficiência visual,
+          auditiva, cognitiva)
+    \item Necessidades específicas (presença de elevador, piso tátil, intérprete de
+          Libras, descrição de ambientes)
+    \item Preferências de tipo de turismo (cultural, natural, gastronômico, aventura)
+          ajustadas às capacidades do usuário
+\end{itemize}
+
+A integração entre BFI e restrições de acessibilidade cria um modelo de
+recomendação verdadeiramente inclusivo, que não apenas respeita preferências de
+personalidade mas também garante a viabilidade física e segurança da
+experiência turística. Esse diferencial posiciona o Persona Tour como inovação
+no campo do turismo inteligente (Tourism 4.0), alinhado com políticas públicas
+de inclusão social~\cite{Silva2023}.
+
+\subsection{Aplicações Mobile e Experiência do Usuário (UX)}
+
+A proliferação de dispositivos móveis transformou a forma como as pessoas
+interagem com informações, serviços e experiências. Aplicativos móveis
+representam 90\% do tempo de engajamento digital, tornando-os o canal
+preferencial para acesso a serviços turísticos. Contudo, a qualidade e
+acessibilidade dessas aplicações variam enormemente, com muitas falhando em
+atender necessidades de usuários com deficiência ou idosos~\cite{Bevan2021,
+Bruffaerts2021}.
+
+\subsubsection{Acessibilidade em Aplicações Móveis: WCAG 2.1}
+
+As \textbf{Web Content Accessibility Guidelines 2.1 (WCAG 2.1)}~\cite{W3C2021},
+desenvolvidas pelo World Wide Web Consortium, estabelecem padrões
+internacionais reconhecidos para acessibilidade digital. Embora originalmente
+focadas em conteúdo web, suas diretrizes são amplamente aplicáveis a aplicações
+móveis, especialmente em nível AA (que garante acessibilidade para 80\% das
+necessidades de pessoas com deficiência)~\cite{W3C2021, MDPI2021}.
+
+Os princípios WCAG 2.1 fundamentais para aplicações móveis são:
+
+\begin{enumerate}
+    \item \textbf{Perceptível}: A informação deve ser apresentada de forma compreensível. Especificamente para aplicações:
+          \begin{itemize}
+              \item \textbf{Contraste de cores}: Razão mínima de 4,5:1 entre texto e fundo (ou 3:1 para texto grande $\geq$ 18pt). Aplicações frequentemente violam esse requisito, causando ilegibilidade para pessoas com baixa visão~\cite{Acessibilidade2025}.
+              \item \textbf{Tamanho de texto}: Deve ser ajustável e a interface deve permanecer utilizável em escalas até 200\%.
+              \item \textbf{Descrição de elementos visuais}: Botões, ícones e imagens devem ter rótulos textuais ou descrições acessíveis para leitores de tela.
+          \end{itemize}
+
+    \item \textbf{Operável}: Todos os componentes devem ser operáveis sem exclusão de usuários com diferentes capacidades motoras ou cognitivas.
+          \begin{itemize}
+              \item \textbf{Tamanho de alvo tátil}: Botões e elementos interativos devem ter área mínima de 48x48 pixels lógicos para facilitar ativação por usuários com limitações motoras finas~\cite{Flutter2025, Dev2023}.
+              \item \textbf{Navegação por teclado}: Toda funcionalidade deve ser acessível via teclado, suportando navegação com abas e foco claramente visível.
+              \item \textbf{Suporte a leitores de tela}: TalkBack (Android) e VoiceOver (iOS) devem descrever a interface de forma coerente e permitir navegação completa~\cite{Flutter2025}.
+              \item \textbf{Evitar mudanças de contexto automáticas}: Alterações não deve ocorrer sem confirmação do usuário, especialmente durante entrada de dados.
+          \end{itemize}
+
+    \item \textbf{Compreensível}: Interface, comportamento e mensagens devem ser claros e antecipáveis.
+          \begin{itemize}
+              \item \textbf{Linguagem simples}: Texto legível com vocabulário apropriado, especialmente importante para usuários idosos e com deficiência cognitiva~\cite{Recomendacoes2015}.
+              \item \textbf{Feedback claro}: Ações do usuário devem gerar feedback imediato (visual, auditivo ou tátil) confirmando sucesso ou indicando erro com sugestão de correção.
+              \item \textbf{Consistência visual}: Padrões, cores e posicionamento devem ser consistentes ao longo da aplicação.
+          \end{itemize}
+
+    \item \textbf{Robusto}: Deve funcionar com diversas tecnologias assistivas e em diferentes contextos.
+          \begin{itemize}
+              \item \textbf{Compatibilidade com tecnologias assistivas}: Deve funcionar adequadamente com leitores de tela, amplificadores de som, interfaces adaptadas.
+              \item \textbf{Testes em múltiplos dispositivos}: Comportamento consistente em smartphones, tablets, versões antigas e novas do SO.
+          \end{itemize}
+\end{enumerate}
+
+\subsubsection{Recomendações Específicas para Idosos}
+
+Estudos sobre interação de idosos com aplicações
+móveis~~\cite{Recomendacoes2015, LUSUI2021, Vilela2022} identificam desafios
+cognitivos, visuais e motores específicos que exigem diretrizes adaptadas:
+
+\begin{itemize}
+    \item \textbf{Degradação visual natural}: Redução de acuidade visual, dificuldade com contraste e aumento de sensibilidade a cintilação. Recomenda-se font-size mínimo de 16-18pt, espaçamento entre elementos, aumento de espaçamento de linha.
+
+    \item \textbf{Redução de destreza motora}: Tremor, artrite e redução de precisão manual. Botões devem ser significativamente maiores que 48x48 pixels (60-72 pixels recomendado), com espaçamento amplo entre elementos~\cite{Recomendacoes2015}.
+
+    \item \textbf{Mudança cognitiva}: Aumento de tempo de processamento, dificuldade com abstrações visuais, tendência a familiaridade com padrões conhecidos. Navegação deve ser simplificada (máximo 3 níveis hierárquicos), com nomes de botões claros e descritivos, evitando ícones sem rótulo.
+
+    \item \textbf{Proficiência tecnológica variável}: Muitos idosos possuem experiência limitada com aplicativos móveis. Deve-se priorizar familiaridade (padrões conhecidos como enviar/receber para comunicação), tutoriais integrados e suporte à ajuda contextual.
+\end{itemize}
+
+\subsubsection{Experiência do Usuário (UX) Centrada no Usuário Específico}
+
+A Experiência do Usuário vai além da mera funcionalidade; refere-se ao conjunto
+de emoções, atitudes e comportamentos associados ao uso de um
+sistema~\cite{Nielsen2012}. Para públicos com necessidades especiais, UX deve
+ser construída através de pesquisa participativa, onde o usuário é co-designer
+do sistema.
+
+O \textbf{Design Thinking} propõe que aplicações sejam desenvolvidas em
+iterações: (1) Descoberta --- entender profundamente as necessidades reais; (2)
+Definição --- reformular o problema com base em insights; (3) Ideação --- gerar
+múltiplas soluções; (4) Prototipação --- construir versões tangíveis; (5) Teste
+--- validar com usuários reais. Para aplicações turísticas, isso significa
+envolver desde o início pessoas idosas e com deficiência em sessões de
+prototipagem e teste de usabilidade, capturando não apenas erros funcionais,
+mas também a satisfação emocional e o senso de autonomia gerado pela
+experiência.
+
+\subsection{Tecnologias e Arquitetura do Sistema}
+
+O Persona Tour é uma arquitetura de três camadas que separa responsabilidades e
+permite escalabilidade:
+
+\subsubsection{Camada 1: API de Integração de Dados Geográficos --- Google Maps API}
+
+A primeira camada responsabiliza-se por agregar dados de pontos turísticos. A
+\textbf{Google Maps API} fornece informações geográficas confiáveis:
+localização (latitude/longitude), nome, categoria (restaurante, atração
+cultural, museu, etc.), avaliações, horários, contato. Esses dados brutos são
+enriquecidos através de:
+
+\begin{itemize}
+    \item \textbf{Anotação manual}: Time de pesquisadores verificam in loco a acessibilidade de cada ponto, registrando informações específicas (presença de rampas, dimensões de entradas, tipo de piso, elevadores, banheiros adaptados, sinalização tátil/Braille, serviços de acessibilidade específicos como atendimento personalizado).
+
+    \item \textbf{Crowdsourcing validado}: Usuários do Persona Tour (especialmente pessoas com deficiência) podem relatar discrepâncias entre informações cadastradas e realidade, com mecanismo de validação por pares e moderação.
+
+    \item \textbf{Integração com bases de dados públicas}: Dados de entidades turísticas oficiais, secretarias municipais de turismo e cultura.
+\end{itemize}
+
+\subsubsection{Camada 2: API de Negócios e Recomendação}
+
+A segunda camada implementa a lógica de negócio central: processamento de
+perfil do usuário, geração de recomendações e gerenciamento de dados de
+acessibilidade. Estrutura-se em:
+
+\begin{enumerate}
+    \item \textbf{Módulo de Autenticação e Perfil}: Gerencia cadastro de usuários, armazenamento seguro de credenciais (com criptografia), e persistência de dados de perfil (traços BFI, restrições de acessibilidade, histórico de visitas).
+
+    \item \textbf{Módulo de Questionário BFI}: Implementa o Big Five Inventory validado em português brasileiro. O questionário composto por 44 ou 15 itens (versão reduzida) coleta respostas em escala Likert de 5 pontos, calculando scores para cada dimensão de personalidade.
+
+    \item \textbf{Módulo de Recomendação}:
+          \begin{itemize}
+              \item Recebe perfil BFI do usuário (5 dimensões), restrições de acessibilidade, e
+                    preferências de categoria turística.
+              \item Aplica algoritmo d-means inspirado do GrouPlanner para agrupar pontos turísticos
+                    que combinam: (a) características que atraem usuários com aquele perfil
+                    psicológico; (b) conformidade com requisitos de acessibilidade específicos do
+                    usuário.
+              \item Retorna lista ordenada de pontos turísticos recomendados com score de relevância.
+          \end{itemize}
+
+    \item \textbf{Módulo de Dados de Acessibilidade}: Armazena e gerencia metadados detalhados sobre cada ponto turístico, permitindo buscas facetadas por tipo de acessibilidade necessária.
+\end{enumerate}
+
+A API de Negócios é implementada em Java Spring Boot, com requisitos de segurança rígidos
+(autenticação JWT, validação de entrada, CORS), e padrão RESTful.
+
+\subsubsection{Camada 3: Aplicação Móvel --- Flutter}
+
+A terceira camada é a interface de usuário, implementada em \textbf{Flutter},
+framework open-source de desenvolvimento cross-platform da Google que permite
+criar aplicações nativas em iOS e Android com código base único
+\cite{Flutter2025}.
+
+\textbf{Razões para escolha do Flutter}:
+
+\begin{itemize}
+    \item \textbf{Suporte nativo a acessibilidade}: Framework Flutter possui integração built-in com tecnologias assistivas do SO: TalkBack (Android) e VoiceOver (iOS). Widgets fornecem propriedades como `semanticLabel`, `onTap`, `onLongPress` que permitem navegação por leitor de tela \cite{Flutter2025}.
+
+    \item \textbf{Widgets acessíveis por padrão}: Componentes como `Button`, `TextField`, `AppBar` já implementam acessibilidade mínima, facilitando a implementação por parte do desenvolvedor \cite{Flutter2025}.
+
+    \item \textbf{WCAG 2.1 Compliance}: Pacotes como \texttt{flutter\_accessibility\_scanner} permitem verificação automática de conformidade com as diretrizes WCAG~2.1, detectando problemas como contraste inadequado, alvo tátil pequeno, rótulos ausentes e falhas na navegação por teclado.
+
+    \item \textbf{Performance e responsividade}: Flutter compila para código nativo, oferecendo performance superior a tecnologias interpretadas, crucial para experiências fluidas em dispositivos antigos/com recursos limitados, comuns entre usuários idosos.
+
+    \item \textbf{Hot Reload}: Permite iteração rápida durante desenvolvimento e teste de acessibilidade.
+\end{itemize}
+
+\textbf{Componentes principais da aplicação Flutter}:
+
+\begin{enumerate}
+    \item \textbf{Tela de Autenticação}: Login/registro com campos amplos (48+ pixels), alta relação de contraste, feedback claro de erros, suporte a navegação por teclado completa.
+
+    \item \textbf{Tela de Questionário BFI}: Interface em múltiplas páginas (não carregar todas as 44 questões de uma vez para evitar sobrecarga cognitiva), com indicador de progresso claro, opção de pausar e retomar, escala Likert com rótulos textuais claros (``Discordo Fortemente'' a ``Concordo Fortemente'').
+
+    \item \textbf{Tela de Recomendações}: Exibe lista de pontos turísticos recomendados em card layout acessível, cada card mostrando: foto (com descrição alternativa para leitores de tela), nome, categoria, distância, e indicadores de acessibilidade (ícones com rótulos: ``Rampa disponível'', ``Banheiro adaptado'', ``Estacionamento próximo'').
+
+    \item \textbf{Tela de Detalhes do Ponto Turístico}: Informação expandida: endereço completo com mapa interativo, descrição detalhada (com audiodescrição de fotos disponível), informações de acessibilidade, contato, horários, como chegar (com sugestões de transporte acessível), avaliações de outros usuários, galeria de fotos.
+
+    \item \textbf{Tela de Avaliação de Acessibilidade do Ponto Turístico}: Informação expandida: endereço completo com mapa interativo, descrição detalhada (com audiodescrição de fotos disponível), informações de acessibilidade, contato, horários, como chegar (com sugestões de transporte acessível), avaliações de outros usuários, galeria de fotos.
+
+    \item \textbf{Perfil do Usuário}: Permite gerenciar informações pessoais, restrições de acessibilidade, histórico de visitas, favoritos, e configurações de acessibilidade (tamanho de fonte, modo de alto contraste, velocidade de animação).
+\end{enumerate}
+
+\textbf{Implementação de Acessibilidade em Flutter}:
+
+Seguindo as diretrizes WCAG 2.1 e recomendações específicas para idosos:
+
+\begin{itemize}
+    \item \textbf{Tipografia}: Font-size mínimo 16pt para corpo de texto, 18-20pt para cabeçalhos, fonte sans-serif (Roboto ou Open Sans) de alta legibilidade. Suporte a aumento de escala até 200\%.
+
+    \item \textbf{Cores e Contraste}: Paleta de cores com contraste mínimo 4,5:1. Modo de alto contraste disponível. Não usar cor como único indicador de informação (usar também ícones, texto, padrões).
+
+    \item \textbf{Navegação}: Estrutura hierárquica clara (máximo 3 níveis), botões ``Voltar'' conspícuos, breadcrumbs em páginas profundas, suporte a navegação por teclado com ordem de foco lógica.
+
+    \item \textbf{Leitores de Tela}: Todos os elementos interativos possuem `semanticLabel` descritivo. Imagens têm `semanticLabel` explicativo. Ordem semântica (reading order) otimizada para fluxo natural. Testado extensivamente com TalkBack e VoiceOver.
+
+    \item \textbf{Feedback}: Interações geram feedback multissensorial: visual (mudança de cor, ícone), auditivo (som, vibração), textual (toast/snackbar explicando resultado).
+
+    \item \textbf{Erros e Validação}: Campos obrigatórios claramente marcados. Erros de validação aparecem imediatamente com sugestão de correção. Importante ações são reversíveis (ex: ``Desfazer último filtro'').
+\end{itemize}
+
+\textbf{Integração das Camadas}:
+
+A aplicação Flutter comunica-se com a API de Negócios através de requisições
+HTTPS/REST, transmitindo: - Credenciais autenticadas (JWT token) - Dados de
+perfil (scores BFI, restrições de acessibilidade) - Preferências de filtro -
+Localização atual (com consentimento do usuário)
+
+A API retorna: - Lista de recomendações com metadata - Detalhes expandidos de
+cada ponto - Informações de acessibilidade validadas - Rotas otimizadas
+
+Ambas as camadas (API e Flutter) interagem com Google Maps API para dados
+geográficos.
+
+\textbf{Segurança e Privacidade}:
+
+- Dados sensíveis (localização, informações de deficiência) são criptografados em trânsito (TLS 1.3) e em repouso (AES-256).
+- Usuários controlam quais dados compartilham e com quem.
+- Conformidade com LGPD (Lei Geral de Proteção de Dados) garantida através de consentimento explícito, direito de acesso/exclusão de dados.
+- Auditorias regulares de segurança e testes de penetração.
+
+Essa arquitetura em três camadas garante separação de responsabilidades,
+escalabilidade, manutenibilidade e, crucialmente, permite que melhorias em uma
+camada (ex: novos algoritmos de recomendação, novos dados de acessibilidade)
+beneficiem imediatamente toda a plataforma.
+
+% \begin{figure}[H]
+%     \centering
+%     %    \includegraphics[width=0.8\textwidth]{estrutura_sistema.png}
+%     \caption{Relação entre módulos do sistema proposto e componentes teóricos.}
+% \end{figure}
 
 % ---------------------------------------------------------------
-% 3 METODOLOGIA DA PESQUISA
+% 3 METODOLOGIA
 % ---------------------------------------------------------------
 \newpage
-\section{Metodologia da Pesquisa}
+\section{Metodologia}
 \justifying
-A metodologia define o caminho a ser seguido para alcançar os objetivos.
-Este estudo adota abordagem aplicada e natureza exploratória. As etapas incluem:
-\begin{enumerate}
-    \item Levantamento bibliográfico sobre turismo inclusivo e recomendação baseada em
-          personalidade;
-    \item Modelagem de dados e definição dos requisitos funcionais e não funcionais;
-    \item Desenvolvimento do protótipo com interface amigável e adaptada à pessoa idosa;
-    \item Testes e validação com base em perfis de usuários simulados.
-\end{enumerate}
+\subsection{DSR - Design Science Research}
+Este trabalho caracteriza-se como uma pesquisa aplicada de natureza
+exploratória e experimental, fundamentada nos princípios da Design Science
+Research (DSR), metodologia reconhecida por sua capacidade de produzir
+artefatos tecnológicos que resolvem problemas concretos enquanto geram
+conhecimento científico. A pesquisa foi estruturada em quatro fases
+interdependentes e iterativas, alinhadas aos objetivos específicos propostos,
+integrando técnicas qualitativas e quantitativas para aplicabilidade prática.
+
+\subsubsection{Fase 1: Investigação de Técnicas de Interface Intuitiva para Usuários Idosos}
+A primeira fase concentra-se na compreensão profunda das necessidades e
+limitações do público idoso no contexto de interfaces digitais móveis.
+Iniciou-se com uma revisão sistemática da literatura abrangendo diretrizes de
+acessibilidade para idosos, recomendações de usabilidade específicas para
+dispositivos móveis e estudos sobre interação humano-computador com foco nesse
+público. Foram consultadas as diretrizes WCAG 2.2 (Web Content Accessibility
+Guidelines), adaptadas para o contexto mobile, bem como estudos que investigam
+características visuais, cognitivas e motoras associadas ao envelhecimento.
+Paralelamente à revisão bibliográfica, serão conduzidas entrevistas
+semiestruturadas com potenciais usuários com deficiência e idosos, além de
+pessoas que trabalham na área do turismo que atuam com esse público. As
+entrevistas seguirão a metodologia de pesquisa participativa, permitindo
+identificar preferências de design, barreiras de uso e expectativas
+relacionadas a aplicativos turísticos. Os dados coletados deverão ser
+organizados através de análise temática, gerando requisitos preliminares sobre
+tamanho de fonte, contraste de cores, simplicidade de navegação, feedback
+audiovisual e redução de passos para completar tarefas.
+
+\subsubsection{Fase 2: Desenvolvimento da API para Integração com o Sistema de Recomendação}
+A segunda fase envolverá o projeto e implementação de uma Application
+Programming Interface (API) REST responsável pela comunicação entre o
+aplicativo móvel e o sistema de recomendação Persona Tour desenvolvido em
+Python. A arquitetura da API deverá ser projetada seguindo os princípios
+RESTful, garantindo escalabilidade, manutenibilidade e segurança. O
+desenvolvimento será realizado utilizando boas práticas de engenharia de
+software, incluindo: definição clara de endpoints para operações de criação,
+leitura, atualização e exclusão de dados (CRUD); implementação de autenticação
+e autorização baseada em tokens JWT (JSON Web Tokens); versionamento da API
+para garantir retrocompatibilidade; e testes automatizados de integração. A API
+foi estruturada para receber como entrada os dados do questionário BFI (Big
+Five Inventory) preenchido pelo usuário, e enviar essas informações a API do
+Sistema de Recomendação, através do algoritmo d-means adaptado do sistema
+Persona Tour, recomendações personalizadas de pontos turísticos com informações
+detalhadas sobre os locais são retornadas para a API em Java Spring Boot. A
+validação da API incluirá testes de carga para avaliar desempenho sob
+diferentes volumes de requisições simultâneas, testes de segurança para
+identificar vulnerabilidades, e testes funcionais para garantir a correta
+integração com o sistema de recomendação.
+
+\subsubsection{Fase 3: Implementação do Mínimo Produto Viável (MVP) do Aplicativo Móvel}
+A terceira fase consistirá no desenvolvimento do MVP do aplicativo, seguindo a
+metodologia ágil de desenvolvimento. A escolha da tecnologia de desenvolvimento
+vai considerá frameworks multiplataforma para otimizar recursos e tempo de
+desenvolvimento, no caso Flutter, O processo de desenvolvimento deverá seguir
+ciclos iterativos curtos, permitindo ajustes contínuos baseados em feedback. As
+funcionalidades essenciais implementadas no MVP incluirão: tela de cadastro e
+autenticação de usuários; questionário digital baseado no modelo BFI para
+captura de traços de personalidade; interface para visualização de pontos
+turísticos recomendados com informações sobre acessibilidade (presença de
+rampas, elevadores, banheiros adaptados, sinalização tátil); link para mapa
+interativo mostrando localização dos pontos turísticos; sistema de filtros
+considerando preferências pessoais e necessidades específicas de
+acessibilidade; Criação de listas de pontos turísticos compartilháveis entre
+usuários; e um sistema de avaliação colaborativo dos pontos turísticos. A
+interface será projetada considerando os requisitos levantados na Fase 1,
+implementando elementos como botões grandes com áreas de toque ampliadas,
+fontes ajustáveis, alto contraste entre texto e fundo, navegação simplificada
+com poucos níveis hierárquicos, feedback claro para cada ação do usuário, e
+suporte a recursos nativos de acessibilidade do sistema operacional (VoiceOver
+no iOS e TalkBack no Android). A prototipação vai ser realizada utilizando
+ferramentas de design como Figma, permitindo validação visual antes da
+codificação.
+
+\subsubsection{Fase 4: Avaliação da Eficácia do Aplicativo através de Testes com Usuários}
+A fase final foca na validação do aplicativo através de testes de usabilidade e
+aceitação com diferentes perfis de usuários. A amostra deve ser selecionada por
+conveniência, incluindo: pessoas idosas com diferentes níveis de familiaridade
+com tecnologia; pessoas com deficiência física ou mobilidade reduzida; e
+profissionais de turismo e acessibilidade que atuam como validadores técnicos.
+Os testes devem ser realizados em ambiente controlado, permitindo observação
+direta da interação dos usuários com o aplicativo, onde deve ser observado a
+execução de tarefas pré-definidas, como: realizar cadastro no aplicativo;
+responder ao questionário de personalidade; visualizar recomendações de pontos
+turísticos; filtrar pontos por critérios de acessibilidade; e observar
+comentários de outros usuários sobre o ponto turístico em evidência. Os
+resultados das sessões devem ser registrados para posterior analise da eficácia
+do sistema. A avaliação da precisão das recomendações envolverá análise
+comparativa entre as sugestões geradas pelo sistema e as preferências reais
+declaradas pelos participantes em questionário pós-teste, calculando métricas
+de acurácia e relevância. A adequação às condições de acessibilidade será
+verificada confrontando as informações apresentadas pelo aplicativo com dados
+reais dos estabelecimentos turísticos, obtidos através de fontes de dados
+seguras. Considerações Éticas Todos os procedimentos envolvendo participantes
+humanos devem ser conduzidos respeitando os princípios éticos de pesquisa,
+conforme Resolução CNS 466/2012. Os participantes receberam Termo de
+Consentimento Livre e Esclarecido (TCLE) detalhando objetivos, procedimentos,
+riscos mínimos e benefícios da pesquisa, com garantia de confidencialidade e
+possibilidade de retirada a qualquer momento sem prejuízos. O projeto deverá
+ser submetido à apreciação do Comitê de Ética em Pesquisa institucional.
+Análise de Dados Os dados quantitativos devem ser analisados através de
+estatística descritiva utilizando ferramentas como softwares em R ou Python. Os
+dados qualitativos (transcrições de entrevistas, observações dos testes de
+usabilidade) foram submetidos à análise de conteúdo temática, identificando
+padrões recorrentes, dificuldades comuns e sugestões de melhorias. Atendendo
+simultaneamente aos requisitos técnicos de integração com sistemas de
+recomendação inteligentes e às necessidades reais de acessibilidade e
+usabilidade do público-alvo, contribuindo tanto para o avanço acadêmico quanto
+para a inclusão social no turismo.
 
 \begin{figure}[H]
     \centering
@@ -257,20 +737,26 @@ Este estudo adota abordagem aplicada e natureza exploratória. As etapas incluem
 \section{Cronograma}
 \begin{table}[H]
     \centering
-    \begin{tabular}{|p{8cm}|c|c|c|c|}
+    \begin{tabular}{|p{6cm}|c|c|c|c|c|c|}
         \hline
-        \textbf{Atividade}           & \textbf{Fev} & \textbf{Mar} & \textbf{Abr} & \textbf{Mai} \\
+        \textbf{Atividade}             & \textbf{Nov./25} & \textbf{Dez./25} & \textbf{Jan./26} & \textbf{Fev./26} & \textbf{Mar./26} & \textbf{Abr./26} \\
         \hline
-        Levantamento bibliográfico   & X            & X            &              &              \\
+        Revisão de Referencial Teórico & X                & X                &                  &                  &                  &                  \\
         \hline
-        Modelagem do sistema         &              & X            & X            &              \\
+        Modelagem do sistema           &                  & X                &                  &                  &                  &                  \\
         \hline
-        Desenvolvimento do protótipo &              &              & X            & X            \\
+        Criação de endpoints da API    &                  &                  & X                &                  &                  &                  \\
         \hline
-        Redação e revisão do texto   &              &              & X            & X            \\
+        Criação de Protótipo           &                  &                  &                  & X                &                  &                  \\
+        \hline
+        Criação de telas do App        &                  &                  &                  & X                & X                &                  \\
+        \hline
+        Integração do App com a API    &                  &                  &                  & X                & X                &                  \\
+        \hline
+        Testes e validação             &                  &                  &                  &                  & X                & X                \\
         \hline
     \end{tabular}
-    \caption{Cronograma de execução do pré-projeto.}
+    \caption{Cronograma de execução do projeto.}
 \end{table}
 
 % ---------------------------------------------------------------
@@ -282,7 +768,7 @@ Este estudo adota abordagem aplicada e natureza exploratória. As etapas incluem
     \setlength\bibitemsep{10pt}
     \sloppy
     %\nocite{*}
-    \printbibliography[heading=bibintoc]
+    \printbibliography[heading=none]
 \end{singlespace}
 \end{document}
 
