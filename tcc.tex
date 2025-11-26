@@ -64,7 +64,7 @@
 
     \textbf{PAULO HENRIQUE SILVA PINHEIRO}\\[4cm]
 
-    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo móvel integrado a um sistema de recomendação para turismo acessível com foco na pessoa idosa: Estudo de caso Persona Tour}}\\[4cm]
+    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo móvel integrado a um sistema de recomendação para turismo acessível com foco na pessoa idosa: Estudo de caso do Projeto Persona Tour}}\\[4cm]
 
     \vfill
     \textbf{SÃO LUÍS – MA}\\
@@ -79,7 +79,7 @@
 \begin{center}
     \textbf{PAULO HENRIQUE SILVA PINHEIRO}\\[3cm]
 
-    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo mobile integrando um sistema de recomendação para turismo inclusivo com foco na pessoa idosa: Estudo de caso Persona Tour}}\\[2cm]
+    \textbf{\MakeUppercase{Desenvolvimento de um aplicativo mobile integrando um sistema de recomendação para turismo inclusivo com foco na pessoa idosa: Estudo de caso do Projeto Persona Tour}}\\[2cm]
 \end{center}
 
 \begin{flushright}
@@ -107,10 +107,29 @@
 \section*{RESUMO}
 \begin{singlespace} % espaçamento simples conforme NBR 6028
     \justifying
-    Este trabalho apresenta o desenvolvimento de um aplicativo mobile de recomendação de pontos turísticos com foco em acessibilidade para pessoas idosas e com deficiência em São Luís - MA. O objetivo é oferecer recomendações personalizadas adaptadas às necessidades específicas dos usuários, promovendo inclusão social e digital no contexto turístico. A justificativa fundamenta-se no dado alarmante de que 53,5\% dos turistas com deficiência deixam de viajar no Brasil por falta de acessibilidade, e na ausência de soluções que integrem personalidade com acessibilidade como elemento central. O diferencial da proposta reside na integração simultânea do modelo psicológico Big Five Inventory (BFI) com restrições de acessibilidade, gerando recomendações que respeitam tanto preferências individuais quanto garantem viabilidade física e segurança da experiência. A metodologia segue Design Science Research com quatro fases: investigação de técnicas de interface para idosos via revisão sistemática e pesquisa participativa; desenvolvimento de uma API REST em Java Spring Boot para lógica de negócios do aplicativo e integração com a API; implementação do MVP em Flutter com funcionalidades de cadastro, questionário BFI, visualização de recomendações com indicadores de acessibilidade e sistema colaborativo de avaliação de pontos turísticos; validação através de testes de usabilidade com usuários reais. Espera-se contribuir para fortalecer a inclusão digital de pessoas idosas e com deficiência, demonstrando viabilidade de sistemas inteligentes que combinam algoritmos sofisticados com design centrado no usuário, alinhado com a Lei Brasileira de Inclusão (Lei 13.146/2015).
+    Este trabalho apresenta o desenvolvimento de um aplicativo mobile de recomendação de ponto
+    turísticos com foco em acessibilidade para pessoas idosas e com deficiência em São Luís - MA. O objetivo é oferecer recomendações personalizadas adaptadas às necessidades específicas
+    dos usuários, promovendo inclusão social e digital no contexto turístico. A justificativa
+    fundamenta-se no dado alarmante de que 53,5\% dos turistas com deficiência deixam de
+    viajar no Brasil por falta de acessibilidade, e na ausência de soluções que integrem
+    personalidade com acessibilidade como elemento central. O diferencial da proposta
+    reside na integração simultânea do modelo psicológico Big Five Inventory (BFI)
+    com restrições de acessibilidade, gerando recomendações que respeitam tanto
+    preferências individuais quanto garantem viabilidade física e segurança da experiência.
+    A metodologia segue Design Science Research com quatro fases: investigação de técnicas
+    de interface para idosos via revisão sistemática e pesquisa participativa;
+    desenvolvimento de uma API REST em Java Spring Boot para lógica de negócios do
+    aplicativo e integração com a API do sistema de recomendação de pontos turísticos;\@
+    implementação de um MVP do aplicativo móvel com funcionalidades
+    de cadastro, questionário BFI, visualização de recomendações com indicadores de
+    acessibilidade e sistema colaborativo de avaliação de pontos turísticos; validação
+    através de testes de usabilidade com usuários reais. Espera-se contribuir com este projeto o fortalecimento
+    da inclusão digital de pessoas idosas e com deficiência, demonstrando viabilidade de
+    sistemas inteligentes que combinam algoritmos de recomendação com design centrado no usuário,
+    alinhado com a Lei Brasileira de Inclusão (Lei 13.146/2015).
 
     \bigskip
-    \noindent\textbf{Palavras-chave:} Aplicação mobile. Sistema de recomendação. Idoso. Turismo inclusivo. Acessibilidade.
+    \noindent\textbf{Palavras-chave:} Aplicação móvel. Sistema de recomendação. Idoso. Turismo inclusivo. Acessibilidade.
 \end{singlespace}
 
 \newpage
@@ -118,9 +137,11 @@
 \section*{Abstract}
 \begin{singlespace} % espaçamento simples conforme NBR 6028
     \justifying
-    This work presents the development of a mobile application for recommending tourist attractions, focusing on accessibility for elderly people and people with disabilities in São Luís - MA. The objective is to offer personalized recommendations adapted to the specific needs of users, promoting social and digital inclusion in the tourism context. The justification is based on the alarming statistic that 53.5\% of tourists with disabilities do not travel in Brazil due to lack of accessibility, and on the absence of solutions that integrate personality with accessibility as a central element. The proposal's distinguishing feature lies in the simultaneous integration of the Big Five Inventory (BFI) psychological model with accessibility constraints, generating recommendations that respect both individual preferences and guarantee the physical feasibility and safety of the experience. The methodology follows Design Science Research with four phases: investigation of interface techniques for the elderly through systematic review and participatory research; development of a REST API in Java Spring Boot for the application's business logic and integration with the API; implementation of the MVP in Flutter with functionalities for registration, BFI questionnaire, visualization of recommendations with accessibility indicators, and a collaborative system for evaluating tourist attractions; validation through usability tests with real users. It is expected to contribute to strengthening the digital inclusion of elderly people and people with disabilities, demonstrating the viability of intelligent systems that combine sophisticated algorithms with user-centered design, aligned with the Brazilian Inclusion Law (Law 13.146/2015).
+    This work presents the development of a mobile application for recommending tourist attractions with a focus on accessibility for elderly people and people with disabilities in São Luís - MA. The objective is to offer personalized recommendations adapted to the specific needs of users, promoting social and digital inclusion in the tourism context. The justification is based on the alarming fact that 53.5\% of tourists with disabilities fail to travel in Brazil due to lack of accessibility, and the absence of solutions that integrate personality with accessibility as a central element. The differential of the proposal lies in the simultaneous integration of the Big Five Inventory (BFI) psychological model with accessibility restrictions, generating recommendations that respect both individual preferences and guarantee physical feasibility and safety of the experience. The methodology follows Design Science Research with four phases: investigation of interface techniques for the elderly via systematic review and participatory research; Development of a REST API in Java Spring Boot for the application's business logic and integration with the API of the tourist attraction recommendation system; Implementation of an MVP of the mobile application with functionalities such as registration, BFI questionnaire, visualization of recommendations with accessibility indicators and a collaborative system for evaluating tourist attractions; validation through usability tests with real users. This project is expected to contribute to strengthening the digital inclusion of elderly and disabled people, demonstrating the viability of intelligent systems that combine recommendation algorithms with user-centered design, aligned with the Brazilian Inclusion Law (Law 13.146/2015).
+
     \bigskip
-    \noindent\textbf{Keywords:} Mobile Application. Recommendation System. Elderly. Inclusive Tourism. Accessibility.
+    \noindent\textbf{Keywords:} Mobile Application. Recommendation System. Elderly. Inclusive Tourism.
+    Accessibility.
 
 \end{singlespace}
 
@@ -138,41 +159,19 @@
 \newpage
 \section{Introdução}
 \justifying
-% Em 2023 teve início o projeto de pós-doutorado intitulado "Uma análise do uso
-% de IA na geração de rotas turísticas personalizadas para o público idoso: um
-% estudo de caso no Projeto The Route", desenvolvido no Instituto Superior de
-% Engenharia do Porto (ISEP/IPP), em Portugal. O
-% Projeto The Route \cite{faria2019theroute} evoluiu para o GrouPlanner
-% \cite{alves2022grouplanner}, coordenado pelo GECAD/ISEP-IPP, incorporando
-% recomendações de roteiros para grupos baseadas nos traços de personalidade do
-% modelo Big Five \cite{Costa1992} e técnicas de negociação para lidar com
-% heterogeneidade grupal na região do Porto e norte de Portugal
-% \cite{alves2023group}.
 
-% Inspirado nesse contexto e na evolução das pesquisas, Estudou-se a viabilidade
-% de aplicar tais conceitos ao turismo acessível no Brasil, com ênfase na
-% população idosa. Assim, um projeto de iniciação científica foi desenvolvido no
-% Instituto Federal do Maranhão (IFMA) Campus São Luís - Monte CASTELO entre
-% agosto de 2024 e agosto de 2025, intitulado "Um estudo sobre os algoritmos
-% inteligentes utilizados no Sistema de Recomendação para Grupos aplicado ao
-% Turismo: um estudo de caso do Projeto GrouPlanner" O projeto resultou na
-% implementação de um sistema de recomendação o qual foi nomeado Pesona Tour,
-% baseado no algoritmo \textit{d-means} \cite{Alves2024}, adaptado para
-% considerar aspectos de acessibilidade em pontos turísticos na cidade de São
-% Luís - MA. O sistema utiliza o modelo BFI para agrupar usuários com perfis
-% psicológicos semelhantes, recomendando pontos turísticos que atendam às suas
-% preferências e necessidades específicas de acessibilidade. Com base nos
-% resultados positivos obtidos nesse projeto inicial, o presente trabalho propõe
-% a continuidade e adaptação desses avanços tecnológicos por meio do
-% desenvolvimento do aplicativo para o serviço Persona Tour. O objetivo central
-% consiste em desenvolver um aplicação móvel voltada ao turismo acessível que faz
-% o uso do sistema de recomendação turística para obtenção dos pontos turísticos
-% , com especial atenção às necessidades do público idoso.O aplicativo visa
-% oferecer uma experiência turística personalizada, acessível e sensível às
-% limitações e preferências do usuário, utilizando o modelo psicológico BFI (Big
-% Five Inventory – BFI) e uma rede colaborativa dentro do App reforçando os
-% recursos disponíveis em pontos turisitcos.
+Sistemas de recomendação em aplicativos móveis têm desempenhado um papel cada vez mais relevante em diferentes setores, especialmente no turismo, onde proporcionam experiências personalizadas e facilitam a descoberta de serviços e destinos alinhados aos interesses e necessidades dos usuários. Tais sistemas utilizam algoritmos inteligentes para analisar dados comportamentais, preferências explícitas e informações contextuais, sugerindo pontos turísticos, restaurantes, eventos e outras atrações de acordo com o perfil de cada pessoa. A crescente popularização de smartphones consolidou os aplicativos de turismo como ferramentas essenciais, permitindo que recomendações em tempo real sejam integradas ao planejamento de viagens e roteiros personalizados.
 
+Com o avanço dessas tecnologias, destaca-se a importância de incorporar critérios de acessibilidade nas recomendações, sobretudo para atender públicos com necessidades específicas, como idosos e pessoas com deficiência. A personalização baseada em acessibilidade envolve avaliar obstáculos arquitetônicos, disponibilidade de serviços especializados, informações sobre o acesso, e demais fatores que interferem na experiência do turista com mobilidade reduzida ou outras limitações temporárias ou permanentes. Aplicar tais critérios em sistemas de recomendação amplia a inclusão, tornando o turismo mais democrático, seguro e satisfatório para todos.
+
+Em 2023 teve início o projeto de pós-doutorado intitulado "Uma análise do uso de IA na geração de rotas turísticas personalizadas para o público idoso: um estudo de caso no Projeto The Route", desenvolvido no Instituto Superior de Engenharia do Porto (ISEP/IPP), em Portugal. O Projeto The Route \cite{faria2019theroute} evoluiu para o GrouPlanner \cite{alves2022grouplanner}, coordenado pelo GECAD/ISEP-IPP, incorporando recomendações de roteiros para grupos baseadas nos traços de personalidade do modelo Big Five \cite{Costa1992} e técnicas de negociação para lidar com heterogeneidade grupal na região do Porto e norte de Portugal \cite{alves2023group}.
+
+Inspirado nesse contexto e na evolução das pesquisas, estudou-se a viabilidade de aplicar tais conceitos ao turismo acessível no Brasil, com ênfase na população idosa. Assim, um projeto de iniciação científica foi desenvolvido no Instituto Federal do Maranhão (IFMA) Campus São Luís - Monte Castelo entre agosto de 2024 e agosto de 2025, intitulado "Um estudo sobre os algoritmos inteligentes utilizados no Sistema de Recomendação para Grupos aplicado ao Turismo: um estudo de caso do Projeto GrouPlanner". O projeto resultou na implementação de um sistema de recomendação o qual foi nomeado Pesona Tour, baseado no algoritmo d-means \cite{Alves2024}, adaptado para considerar aspectos de acessibilidade em pontos turísticos na cidade de São Luís - MA. O sistema utiliza o modelo BFI para agrupar usuários com perfis psicológicos semelhantes, recomendando pontos turísticos que atendam às suas preferências e necessidades específicas de acessibilidade. Com base nos resultados positivos obtidos nesse projeto inicial, o presente trabalho propõe a continuidade e adaptação desses avanços tecnológicos por meio do desenvolvimento do aplicativo para o serviço Persona Tour.
+
+O objetivo central consiste em desenvolver uma aplicação móvel voltada ao turismo acessível que faz uso do sistema de recomendação turística para obtenção dos pontos turísticos, com especial atenção às necessidades do público idoso. O aplicativo visa oferecer uma experiência turística personalizada, acessível e sensível às limitações e preferências do usuário, utilizando o modelo psicológico BFI (Big Five Inventory – BFI) e uma rede colaborativa dentro do App, reforçando os recursos disponíveis em pontos turísticos.
+
+
+\newpage
 % ---------------------------------------------------------------
 % 1.1 PROBLEMA
 % ---------------------------------------------------------------
