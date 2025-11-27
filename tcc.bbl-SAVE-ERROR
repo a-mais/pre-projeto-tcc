@@ -1,0 +1,1263 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{alves2023group}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f2f0bab76d0739eeeccf95f87f50b345}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=fe905eeaf6b8b2c0370d8beca3286dcd}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=afebf7523933a95f79dfeb5cb7bc2753}{%
+           family={Saraiva},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{fullhash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{fullhashraw}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{bibnamehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authorbibnamehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authornamehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authorfullhash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authorfullhashraw}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{User Modeling and User-Adapted Interaction}
+      \field{title}{Group recommender systems for tourism: how does personality predict preferences for attractions, travel motivations, preferences and concerns?}
+      \field{volume}{33}
+      \field{year}{2023}
+      \field{pages}{1141\bibrangedash 1210}
+      \range{pages}{70}
+      \verb{doi}
+      \verb 10.1007/s11257-023-09361-2
+      \endverb
+    \endentry
+    \entry{Alves2023}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f2f0bab76d0739eeeccf95f87f50b345}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=fe905eeaf6b8b2c0370d8beca3286dcd}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=afebf7523933a95f79dfeb5cb7bc2753}{%
+           family={Saraiva},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{fullhash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{fullhashraw}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{bibnamehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authorbibnamehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authornamehash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authorfullhash}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \strng{authorfullhashraw}{93bb09ad99f06f1d4cf8e6425faa433c}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{User Modeling and User-Adapted Interaction}
+      \field{title}{Group recommender systems for tourism: how does personality predict preferences for attractions, travel motivations, preferences and concerns?}
+      \field{volume}{33}
+      \field{year}{2023}
+      \field{pages}{1141\bibrangedash 1210}
+      \range{pages}{70}
+      \verb{doi}
+      \verb 10.1007/s11257-023-09361-2
+      \endverb
+    \endentry
+    \entry{alves2022grouplanner}{inproceedings}{}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0354092ed2b6ec38c36260bad30c8599}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Patrícia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba9203cfcaad79b046fadad5f7541904}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Domingos},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=728c59885f89acc5990e78852864729a}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Catarina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e94c609064b8a5273abb626561e89dbf}{%
+           family={Carneiro},
+           familyi={C\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8d79808ebb5bfdcbba1f97e3f0c0208}{%
+           family={Novais},
+           familyi={N\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2834d1e3c8b4066f9894dda96865467a}{%
+           family={Marreiros},
+           familyi={M\bibinitperiod},
+           given={Goreti},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{fullhash}{de54a73b7eed237607ba5aa13d82be3c}
+      \strng{fullhashraw}{de54a73b7eed237607ba5aa13d82be3c}
+      \strng{bibnamehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{authorbibnamehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{authornamehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{authorfullhash}{de54a73b7eed237607ba5aa13d82be3c}
+      \strng{authorfullhashraw}{de54a73b7eed237607ba5aa13d82be3c}
+      \field{extraname}{1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the International Conference on Practical Applications of Agents and Multi-Agent Systems}
+      \field{title}{GrouPlanner: A group recommender system for tourism with multi-agent microservices}
+      \field{year}{2022}
+      \field{pages}{454\bibrangedash 460}
+      \range{pages}{7}
+    \endentry
+    \entry{Alves2022}{inproceedings}{}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0354092ed2b6ec38c36260bad30c8599}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Patrícia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba9203cfcaad79b046fadad5f7541904}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={Domingos},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=728c59885f89acc5990e78852864729a}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Catarina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e94c609064b8a5273abb626561e89dbf}{%
+           family={Carneiro},
+           familyi={C\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8d79808ebb5bfdcbba1f97e3f0c0208}{%
+           family={Novais},
+           familyi={N\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2834d1e3c8b4066f9894dda96865467a}{%
+           family={Marreiros},
+           familyi={M\bibinitperiod},
+           given={Goreti},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {L'Aquila, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{fullhash}{de54a73b7eed237607ba5aa13d82be3c}
+      \strng{fullhashraw}{de54a73b7eed237607ba5aa13d82be3c}
+      \strng{bibnamehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{authorbibnamehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{authornamehash}{feb30602c660289375dd204c803b4f6b}
+      \strng{authorfullhash}{de54a73b7eed237607ba5aa13d82be3c}
+      \strng{authorfullhashraw}{de54a73b7eed237607ba5aa13d82be3c}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To provide recommendations to groups of tourists is a very complex task, especially due to conflicting preferences and the group’s heterogeneity. The introduction of Multi-Agent Systems (MAS) can be the leverage we are looking for. Their autonomy, isolated state, distribution, and loose coupling make them suitable for the development of distributed systems, being the concept similar to a Microservices architecture. This connection brought a new approach, the Multi-Agent Microservices (MAMS) architecture, which exposes agents as resources through REST endpoints, changing the way MAS are seen and implemented, facilitating the user ↔ agent interaction, with a more efficient interoperability, bringing faster and more intelligent systems. In this demonstration, we propose the use of a MAMS architecture to represent the tourists in a mobile Group Recommender System for Tourism prototype, Grouplanner, exposing their agents and knowledge as resources that can be consumed by HTTP clients by directly communicating with the tourists’ agents using REST endpoints, in order to provide faster and better recommendations.}
+      \field{booktitle}{Advances in Practical Applications of Agents, Multi-Agent Systems, and Complex Systems Simulation. The PAAMS Collection: 20th International Conference, PAAMS 2022, L'Aquila, Italy, July 13–15, 2022, Proceedings}
+      \field{isbn}{978-3-031-18191-7}
+      \field{title}{Grouplanner: A Group Recommender System for Tourism with Multi-agent MicroServices}
+      \field{year}{2022}
+      \field{pages}{454\bibrangedash 460}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1007/978-3-031-18192-4_37
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-031-18192-4_37
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-031-18192-4_37
+      \endverb
+      \keyw{Group recommender systems,Multi-agent microservices,Tourism}
+    \endentry
+    \entry{Alves2024}{article}{}{}
+      \name{author}{6}{ul=2}{%
+        {{un=0,uniquepart=base,hash=0354092ed2b6ec38c36260bad30c8599}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Patrícia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=23b7bbf20600f056bdb033340f869b1e}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=a2fbaf57ce83dc97ba6625d9da65b5c3}{%
+           family={Negrão},
+           familyi={N\bibinitperiod},
+           given={Francisco},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8d79808ebb5bfdcbba1f97e3f0c0208}{%
+           family={Novais},
+           familyi={N\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c73335f51389df792cc1c388c76a07be}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2834d1e3c8b4066f9894dda96865467a}{%
+           family={Marreiros},
+           familyi={M\bibinitperiod},
+           given={Goreti},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Ltd}%
+      }
+      \strng{namehash}{898ee17c5eba849e90a0c998d8e18a52}
+      \strng{fullhash}{25189ec9ac50dd8b915443386ce01a83}
+      \strng{fullhashraw}{25189ec9ac50dd8b915443386ce01a83}
+      \strng{bibnamehash}{898ee17c5eba849e90a0c998d8e18a52}
+      \strng{authorbibnamehash}{898ee17c5eba849e90a0c998d8e18a52}
+      \strng{authornamehash}{898ee17c5eba849e90a0c998d8e18a52}
+      \strng{authorfullhash}{25189ec9ac50dd8b915443386ce01a83}
+      \strng{authorfullhashraw}{25189ec9ac50dd8b915443386ce01a83}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The complexity associated with groups of tourists led to the emergence of Group Recommender Systems (GRS) for tourism. But if generating recommendations for small groups is a complex task, to provide them to large and occasional groups is even more. This complexity is especially due to the group's heterogeinity, conflicting preferences, the information overload found on the internet and the tourists’ different ways of coping with the information, hindering the recommendation process from the users’ profile construction to the final recommendation of a list of points of interest to visit. In this work, we show how we tackled the identified issues in a GRS prototype, Grouplanner, including the cold-start problem, by predicting the tourists’ preferences based only on their personality and dividing the main group into subgroups of similar personality; by using a Multi-Agent Microservice; a novel dynamic clustering algorithm, d-means, adapted from the k-means algorithm, that does not need to know the number of clusters a priori; and association rules. Using a personality dataset of n=100k users, the proposed d-means algorithm was tested against two baselines (k-means and k-means++), showing better results in the clustering quality and scalability. We were also able to determine a large set of association rules to refine the recommendations, although further improvements are needed. To test the Grouplanner prototype, a simulation with real users (n=35) was conducted. The results showed the subgroups formed were very compact, revealing a very good clustering quality, with an average silhouette of s = 0.91. 11 of the 15 proposed tourist preferences were successfully predicted and used for the preliminary recommendation lists, being 92\% of the participants satisfied with the individual recommendations and 96\% with the group recommendations.}
+      \field{issn}{09574174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{month}{12}
+      \field{title}{Are heterogeinity and conflicting preferences no longer a problem? Personality-based dynamic clustering for group recommender systems}
+      \field{urlday}{20}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{255}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.eswa.2024.124812
+      \endverb
+      \keyw{Cold-Start,Dynamic Clustering,Group Recommender System,Leisure Tourism,Multi-Agent Microservice,Personality}
+    \endentry
+    \entry{Andrade2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=430010814af97fb5f76859b2d335f3ce}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Autor},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{430010814af97fb5f76859b2d335f3ce}
+      \strng{fullhash}{430010814af97fb5f76859b2d335f3ce}
+      \strng{fullhashraw}{430010814af97fb5f76859b2d335f3ce}
+      \strng{bibnamehash}{430010814af97fb5f76859b2d335f3ce}
+      \strng{authorbibnamehash}{430010814af97fb5f76859b2d335f3ce}
+      \strng{authornamehash}{430010814af97fb5f76859b2d335f3ce}
+      \strng{authorfullhash}{430010814af97fb5f76859b2d335f3ce}
+      \strng{authorfullhashraw}{430010814af97fb5f76859b2d335f3ce}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Added to satisfy missing citation key}
+      \field{title}{Placeholder reference for Andrade2023}
+      \field{year}{2023}
+    \endentry
+    \entry{Azambuja2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5264eb7665f15416ef5a1f9041799cd4}{%
+           family={Azambuja},
+           familyi={A\bibinitperiod},
+           given={Rogério\bibnamedelima Xavier},
+           giveni={R\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=f41e9553e306cb60b6839b09a81538d4}{%
+           family={Morais},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi Jorge},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4490fdb3f1907615d625a832610090bb}{%
+           family={Filipe},
+           familyi={F\bibinitperiod},
+           given={Vítor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Instituto Federal do Rio Grande do Sul (IFRS)}%
+      }
+      \strng{namehash}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{fullhash}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{fullhashraw}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{bibnamehash}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{authorbibnamehash}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{authornamehash}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{authorfullhash}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \strng{authorfullhashraw}{7e101fd746f76a279d8f2b52fd5a35cc}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Ciências da Computação}
+      \field{note}{ISSN: 2238-6416}
+      \field{number}{16}
+      \field{title}{Teoria e Prática em Sistemas de Recomendação}
+      \field{urlday}{29}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{23\bibrangedash 46}
+      \range{pages}{24}
+      \verb{urlraw}
+      \verb https://repositorioaberto.uab.pt/entities/publication/4563f478-abd7-4d38-a7d3-b0da97783adf
+      \endverb
+      \verb{url}
+      \verb https://repositorioaberto.uab.pt/entities/publication/4563f478-abd7-4d38-a7d3-b0da97783adf
+      \endverb
+    \endentry
+    \entry{Bevan2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d01404f56bc6613214612ae02f099d6b}{%
+           family={Bevan},
+           familyi={B\bibinitperiod},
+           given={Nigel},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d01404f56bc6613214612ae02f099d6b}
+      \strng{fullhash}{d01404f56bc6613214612ae02f099d6b}
+      \strng{fullhashraw}{d01404f56bc6613214612ae02f099d6b}
+      \strng{bibnamehash}{d01404f56bc6613214612ae02f099d6b}
+      \strng{authorbibnamehash}{d01404f56bc6613214612ae02f099d6b}
+      \strng{authornamehash}{d01404f56bc6613214612ae02f099d6b}
+      \strng{authorfullhash}{d01404f56bc6613214612ae02f099d6b}
+      \strng{authorfullhashraw}{d01404f56bc6613214612ae02f099d6b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Mobile Human Computer Interaction}
+      \field{note}{Revisão de padrões de acessibilidade para aplicações móveis}
+      \field{title}{Accessibility Standards and Guidelines for Mobile Applications}
+      \field{year}{2021}
+    \endentry
+    \entry{brasil2015lei13146}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa43becf0d21463be7540bf3b40bf243}{%
+           family={Brasil},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{bibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorbibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authornamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presidência da República}
+      \field{note}{Acesso em: 25 out. 2025}
+      \field{title}{Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência)}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm
+      \endverb
+      \verb{url}
+      \verb https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm
+      \endverb
+    \endentry
+    \entry{Brasil2015}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa43becf0d21463be7540bf3b40bf243}{%
+           family={Brasil},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{bibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorbibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authornamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Presidência da República}
+      \field{note}{Acesso em: 25 out. 2025}
+      \field{title}{Lei nº 13.146, de 6 de julho de 2015 (Estatuto da Pessoa com Deficiência)}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm
+      \endverb
+      \verb{url}
+      \verb https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm
+      \endverb
+    \endentry
+    \entry{brasil2014turismoacessivel}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa43becf0d21463be7540bf3b40bf243}{%
+           family={Brasil},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brasília}%
+      }
+      \list{publisher}{1}{%
+        {Ministério do Turismo}%
+      }
+      \strng{namehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{fullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{bibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorbibnamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authornamehash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhash}{aa43becf0d21463be7540bf3b40bf243}
+      \strng{authorfullhashraw}{aa43becf0d21463be7540bf3b40bf243}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 25 out. 2025}
+      \field{title}{Turismo Acessível: Manual de Orientações}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://turismoacessivel.gov.br
+      \endverb
+      \verb{url}
+      \verb https://turismoacessivel.gov.br
+      \endverb
+    \endentry
+    \entry{Bruffaerts2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b4d62ad7f4ad1f427cfae14af08bf4e}{%
+           family={Bruffaerts},
+           familyi={B\bibinitperiod},
+           given={Raphaël},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{fullhash}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{fullhashraw}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{bibnamehash}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{authorbibnamehash}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{authornamehash}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{authorfullhash}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \strng{authorfullhashraw}{4b4d62ad7f4ad1f427cfae14af08bf4e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{note}{Estado atual de acessibilidade em aplicações móveis}
+      \field{title}{Mobile App Accessibility: Current State and Challenges}
+      \field{year}{2021}
+    \endentry
+    \entry{Costa1992}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28fdea0d8a07333c2689fa2cae72acad}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {ResearchGate}%
+      }
+      \strng{namehash}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{fullhash}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{fullhashraw}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{bibnamehash}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{authorbibnamehash}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{authornamehash}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{authorfullhash}{28fdea0d8a07333c2689fa2cae72acad}
+      \strng{authorfullhashraw}{28fdea0d8a07333c2689fa2cae72acad}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{Neo PI-R professional manual}
+      \field{type}{techreport}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/publication/240133762
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/publication/240133762
+      \endverb
+    \endentry
+    \entry{Dev2023}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=55f37d1fd483f6a85379640fe51aafa8}{%
+           family={Dev},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{fullhash}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{fullhashraw}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{bibnamehash}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{authorbibnamehash}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{authornamehash}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{authorfullhash}{55f37d1fd483f6a85379640fe51aafa8}
+      \strng{authorfullhashraw}{55f37d1fd483f6a85379640fe51aafa8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Added to satisfy missing citation key}
+      \field{title}{Placeholder reference for Dev2023}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://dev.to/
+      \endverb
+      \verb{url}
+      \verb https://dev.to/
+      \endverb
+    \endentry
+    \entry{faria2019theroute}{inproceedings}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=1b6e8d10258b0656d8a5feb59d12b9f6}{%
+           family={Faria},
+           familyi={F\bibinitperiod},
+           given={Luís},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9716754ac2b297fef1e9f8c7dddcfae0}{%
+           family={Hoque},
+           familyi={H\bibinitperiod},
+           given={Tahsin\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33b38cbc84e1383b22f174c080287400}{%
+           family={Mesquita},
+           familyi={M\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=535cbd80bfe0494d1070c521cb6a4199}{%
+           family={Conceição},
+           familyi={C\bibinitperiod},
+           given={Luís},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9166f6a7a271384693d21a1b79ab306f}{%
+           family={Armada},
+           familyi={A\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97cdbb87b0103f41b6dc868b8de7897b}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f4c82d3f7e577206dacf3c796061c8b}{%
+           family={Ramos},
+           familyi={R\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c280b299835b5e881f3c1141754c701c}
+      \strng{fullhash}{01b0ee6ca8b66e71b569bae1d69b4e30}
+      \strng{fullhashraw}{01b0ee6ca8b66e71b569bae1d69b4e30}
+      \strng{bibnamehash}{c280b299835b5e881f3c1141754c701c}
+      \strng{authorbibnamehash}{c280b299835b5e881f3c1141754c701c}
+      \strng{authornamehash}{c280b299835b5e881f3c1141754c701c}
+      \strng{authorfullhash}{01b0ee6ca8b66e71b569bae1d69b4e30}
+      \strng{authorfullhashraw}{01b0ee6ca8b66e71b569bae1d69b4e30}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2nd International Conference on Tourism Research}
+      \field{month}{3}
+      \field{title}{Theroute Platform: Customized Tourist Routes in the North Region of Portugal}
+      \field{year}{2019}
+      \field{pages}{101}
+      \range{pages}{1}
+    \endentry
+    \entry{Flutter2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{note}{Documentação oficial do Flutter sobre implementação de acessibilidade}
+      \field{title}{Flutter Accessibility Documentation}
+      \field{year}{2025}
+    \endentry
+    \entry{Nielsen2012}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Fundamentos de engenharia de usabilidade e experiência do usuário}
+      \field{title}{Usability Engineering}
+      \field{year}{2012}
+    \endentry
+    \entry{Resnick1997}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=42c60cd629ab25ff7b8464868a0669aa}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=affde3c8d511e90b7126c60a56e7ab49}{%
+           family={Varian},
+           familyi={V\bibinitperiod},
+           given={Hal\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{fullhash}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{fullhashraw}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{bibnamehash}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{authorbibnamehash}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{authornamehash}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{authorfullhash}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \strng{authorfullhashraw}{ad39fe6ec44eb6c54c21dbcced2414eb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Recommender systems}
+      \field{urlday}{11}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{volume}{40}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{56\bibrangedash 58}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1145/245108.245121
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/245108.245121
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/245108.245121
+      \endverb
+    \endentry
+    \entry{santos2019poiaccessibility}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6789a776ca876d048a8811f9992e168f}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd2b273d2d688c6bef957d6b071e0abe}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a08cf44dac2c5e4f961fada930c04188}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=248decd40c4c49561c57e962766a4fe2}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09b34926f604591a206c2776de395e92}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{fullhash}{a627c769785cc05687c6ab66cb2236b1}
+      \strng{fullhashraw}{a627c769785cc05687c6ab66cb2236b1}
+      \strng{bibnamehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{authorbibnamehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{authornamehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{authorfullhash}{a627c769785cc05687c6ab66cb2236b1}
+      \strng{authorfullhashraw}{a627c769785cc05687c6ab66cb2236b1}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers, Environment and Urban Systems}
+      \field{month}{9}
+      \field{note}{Acesso em: 22 out. 2025}
+      \field{title}{Using POI functionality and accessibility levels for delivering personalized tourism recommendations}
+      \field{volume}{77}
+      \field{year}{2019}
+      \field{pages}{101173}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compenvurbsys.2017.08.007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.compenvurbsys.2017.08.007
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.compenvurbsys.2017.08.007
+      \endverb
+    \endentry
+    \entry{Santos2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6789a776ca876d048a8811f9992e168f}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd2b273d2d688c6bef957d6b071e0abe}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a08cf44dac2c5e4f961fada930c04188}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=248decd40c4c49561c57e962766a4fe2}{%
+           family={Gonçalves},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09b34926f604591a206c2776de395e92}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{fullhash}{a627c769785cc05687c6ab66cb2236b1}
+      \strng{fullhashraw}{a627c769785cc05687c6ab66cb2236b1}
+      \strng{bibnamehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{authorbibnamehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{authornamehash}{bc4dc41a46ed8cdeb5ed20e890b31e13}
+      \strng{authorfullhash}{a627c769785cc05687c6ab66cb2236b1}
+      \strng{authorfullhashraw}{a627c769785cc05687c6ab66cb2236b1}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computers, Environment and Urban Systems}
+      \field{note}{Acesso em: 22 out. 2025}
+      \field{title}{Using POI functionality and accessibility levels for delivering personalized tourism recommendations}
+      \field{volume}{77}
+      \field{year}{2019}
+      \field{pages}{101173}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.compenvurbsys.2017.08.007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.compenvurbsys.2017.08.007
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.compenvurbsys.2017.08.007
+      \endverb
+    \endentry
+    \entry{Silva2023}{software}{}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=6df6fa5f70213b914d19d79395dd9bb3}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{institution}{1}{%
+        {ISEP}%
+      }
+      \strng{namehash}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{fullhash}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{fullhashraw}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{bibnamehash}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{authorbibnamehash}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{authornamehash}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{authorfullhash}{6df6fa5f70213b914d19d79395dd9bb3}
+      \strng{authorfullhashraw}{6df6fa5f70213b914d19d79395dd9bb3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Development of an Ontology of Tourist Attractions for Recommending Points of Interest in a Group Recommender System for Tourism Specialisation Area of Graphics Systems and Multimedia}
+      \field{urlday}{13}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 82}
+      \range{pages}{82}
+      \verb{urlraw}
+      \verb https://recipp.ipp.pt/bitstream/10400.22/24146/1/Tese_5143.pdf
+      \endverb
+      \verb{url}
+      \verb https://recipp.ipp.pt/bitstream/10400.22/24146/1/Tese_5143.pdf
+      \endverb
+    \endentry
+    \entry{Recomendacoes2015}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=232b5ee16e0dd5902e0ac72b0af503d9}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{fullhash}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{fullhashraw}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{bibnamehash}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{authorbibnamehash}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{authornamehash}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{authorfullhash}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \strng{authorfullhashraw}{aad1bac9d5668b9d5f12f36bc50220f3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Produção}
+      \field{note}{Diretrizes específicas para interfaces móveis acessíveis a idosos}
+      \field{number}{4}
+      \field{title}{Recomendações de Usabilidade e Acessibilidade para Interface de Telefone Celular Visando o Público Idoso}
+      \field{volume}{25}
+      \field{year}{2015}
+    \endentry
+    \entry{MTur2024}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a8fc024159eb96e3c9b89dea895c4dc}{%
+           family={Turismo},
+           familyi={T\bibinitperiod},
+           given={Ministério},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={do},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{fullhash}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{fullhashraw}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{bibnamehash}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{authorbibnamehash}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{authornamehash}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{authorfullhash}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \strng{authorfullhashraw}{8a8fc024159eb96e3c9b89dea895c4dc}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Notícias - Ministério do Turismo}
+      \field{month}{9}
+      \field{note}{Dados oficiais sobre exclusão turística de pessoas com deficiência no Brasil}
+      \field{title}{Mais da metade dos turistas com deficiência deixaram de viajar por falta de acessibilidade}
+      \field{year}{2025}
+    \endentry
+    \entry{MDPI2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhashraw}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhashraw}{f22794f69ce5910cb4be68ff9026570d}
+      \field{extraname}{1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{MDPI Applied Sciences}
+      \field{note}{Revisão de escopo sobre acessibilidade em aplicações nativas}
+      \field{number}{12}
+      \field{title}{Accessibility in Native Mobile Applications for Users with Disabilities: A Scoping Review}
+      \field{volume}{11}
+      \field{year}{2021}
+      \field{pages}{5707}
+      \range{pages}{1}
+    \endentry
+    \entry{LUSUI2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f22794f69ce5910cb4be68ff9026570d}{%
+           family={Various},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{fullhashraw}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{bibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorbibnamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authornamehash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhash}{f22794f69ce5910cb4be68ff9026570d}
+      \strng{authorfullhashraw}{f22794f69ce5910cb4be68ff9026570d}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Ergodesign-HCI}
+      \field{month}{6}
+      \field{note}{Checklist de usabilidade específico para idosos}
+      \field{title}{LUSUI: Desenvolvimento de Lista de Verificação de Usabilidade para Interfaces de Smartphone com Foco no Usuário Idoso}
+      \field{year}{2021}
+    \endentry
+    \entry{Vilela2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=254f6c124c55f7376696e0bfc87342ce}{%
+           family={Vilela},
+           familyi={V\bibinitperiod},
+           given={Paulo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{fullhash}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{fullhashraw}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{bibnamehash}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{authorbibnamehash}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{authornamehash}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{authorfullhash}{254f6c124c55f7376696e0bfc87342ce}
+      \strng{authorfullhashraw}{254f6c124c55f7376696e0bfc87342ce}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scielo}
+      \field{month}{2}
+      \field{note}{Análise das políticas públicas brasileiras nos últimos 20 anos}
+      \field{title}{Políticas Públicas de Acessibilidade em Turismo no Brasil}
+      \field{year}{2025}
+    \endentry
+    \entry{W3C2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=446a1ae6601a5c59360c7d591c3992da}{%
+           family={W3C},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{fullhashraw}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{bibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorbibnamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authornamehash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhash}{446a1ae6601a5c59360c7d591c3992da}
+      \strng{authorfullhashraw}{446a1ae6601a5c59360c7d591c3992da}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Padrões internacionais de acessibilidade web e mobile}
+      \field{title}{Web Content Accessibility Guidelines (WCAG) 2.1}
+      \field{year}{2021}
+    \endentry
+    \entry{unwto2016manual}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=743ad5e46a43204248e90b7384f642e2}{%
+           family={{World Tourism Organization (UNWTO)}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {UNWTO}%
+      }
+      \strng{namehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{fullhash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{fullhashraw}{743ad5e46a43204248e90b7384f642e2}
+      \strng{bibnamehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authorbibnamehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authornamehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authorfullhash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authorfullhashraw}{743ad5e46a43204248e90b7384f642e2}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 22 out. 2025}
+      \field{title}{Manual on Accessible Tourism for All: Principles, Tools and Best Practices – Module I: Accessible Tourism – Definition and Context}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.e-unwto.org/doi/book/10.18111/9789284418077
+      \endverb
+      \verb{url}
+      \verb https://www.e-unwto.org/doi/book/10.18111/9789284418077
+      \endverb
+    \endentry
+    \entry{UNWTO2016}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=743ad5e46a43204248e90b7384f642e2}{%
+           family={{World Tourism Organization (UNWTO)}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Madrid}%
+      }
+      \list{publisher}{1}{%
+        {UNWTO}%
+      }
+      \strng{namehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{fullhash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{fullhashraw}{743ad5e46a43204248e90b7384f642e2}
+      \strng{bibnamehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authorbibnamehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authornamehash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authorfullhash}{743ad5e46a43204248e90b7384f642e2}
+      \strng{authorfullhashraw}{743ad5e46a43204248e90b7384f642e2}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Acesso em: 22 out. 2025}
+      \field{title}{Manual on Accessible Tourism for All: Principles, Tools and Best Practices – Module I: Accessible Tourism – Definition and Context}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.e-unwto.org/doi/book/10.18111/9789284418077
+      \endverb
+      \verb{url}
+      \verb https://www.e-unwto.org/doi/book/10.18111/9789284418077
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

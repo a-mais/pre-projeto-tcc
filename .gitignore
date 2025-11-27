@@ -26,7 +26,6 @@
 *.glsdefs
 
 # LaTeX build outputs
-*.pdf
 *.dvi
 *.ps
 
