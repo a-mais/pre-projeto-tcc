@@ -1,0 +1,141 @@
+\newpage
+\section{Introdução}
+\justifying
+
+Sistemas de recomendação em aplicativos móveis têm desempenhado um papel cada
+vez mais relevante em diferentes setores, especialmente no turismo, onde
+proporcionam experiências personalizadas e facilitam a descoberta de serviços e
+destinos alinhados aos interesses e necessidades dos usuários. Tais sistemas
+utilizam algoritmos inteligentes para analisar dados comportamentais,
+preferências explícitas e informações contextuais, sugerindo pontos turísticos,
+restaurantes, eventos e outras atrações de acordo com o perfil de cada pessoa.
+A crescente popularização de smartphones consolidou os aplicativos de turismo
+como ferramentas essenciais, permitindo que recomendações em tempo real sejam
+integradas ao planejamento de viagens e roteiros personalizados.
+
+Com o avanço dessas tecnologias, destaca-se a importância de incorporar
+critérios de acessibilidade nas recomendações, sobretudo para atender públicos
+com necessidades específicas, como idosos e pessoas com deficiência. A
+personalização baseada em acessibilidade envolve avaliar obstáculos
+arquitetônicos, disponibilidade de serviços especializados, informações sobre o
+acesso, e demais fatores que interferem na experiência do turista com
+mobilidade reduzida ou outras limitações temporárias ou permanentes. Aplicar
+tais critérios em sistemas de recomendação amplia a inclusão, tornando o
+turismo mais democrático, seguro e satisfatório para todos.
+
+Em 2023 teve início o projeto de pós-doutorado intitulado ``Uma análise do uso
+de IA na geração de rotas turísticas personalizadas para o público idoso: um
+estudo de caso no Projeto The Route'', desenvolvido no Instituto Superior de
+Engenharia do Porto (ISEP/IPP), em Portugal. O Projeto The Route
+~\cite{faria2019theroute} evoluiu para o GrouPlanner~\cite{Alves2022},
+coordenado pelo GECAD/ISEP-IPP, incorporando recomendações de roteiros para
+grupos baseadas nos traços de personalidade do modelo Big Five~\cite{Costa1992}
+e técnicas de negociação para lidar com heterogeneidade grupal na região do
+Porto e norte de Portugal~\cite{Alves2023}.
+
+Inspirado nesse contexto e na evolução das pesquisas, estudou-se a viabilidade
+de aplicar tais conceitos ao turismo acessível no Brasil, com ênfase na
+população idosa. Assim, um projeto de iniciação científica foi desenvolvido no
+Instituto Federal do Maranhão (IFMA) Campus São Luís - Monte Castelo entre
+agosto de 2024 e agosto de 2025, intitulado ``Um estudo sobre os algoritmos
+inteligentes utilizados no Sistema de Recomendação para Grupos aplicado ao
+Turismo: um estudo de caso do Projeto GrouPlanner''. O projeto resultou na
+implementação de um sistema de recomendação o qual foi nomeado Persona Tour,
+baseado no algoritmo d-means \cite{Alves2024}, adaptado para considerar
+aspectos de acessibilidade em pontos turísticos na cidade de São Luís - MA. O
+sistema utiliza o modelo BFI para agrupar usuários com perfis psicológicos
+semelhantes, recomendando pontos turísticos que atendam às suas preferências e
+necessidades específicas de acessibilidade. Com base nos resultados positivos
+obtidos nesse projeto inicial, o presente trabalho propõe a continuidade e
+adaptação desses avanços tecnológicos por meio do desenvolvimento do aplicativo
+para o serviço Persona Tour.
+
+O objetivo central consiste em desenvolver uma aplicação móvel voltada ao
+turismo acessível que faz uso do sistema de recomendação turística para
+obtenção dos pontos turísticos, com especial atenção às necessidades do público
+idoso e da pessoa com deficiência. O aplicativo visa oferecer uma experiência
+turística personalizada, acessível e sensível às limitações e preferências do
+usuário, utilizando o modelo psicológico BFI (Big Five Inventory – BFI) e uma
+rede colaborativa dentro do App, reforçando os recursos disponíveis em pontos
+turísticos.
+
+\newpage
+% ---------------------------------------------------------------
+% 1.1 PROBLEMA
+% ---------------------------------------------------------------
+% \newpage
+\subsection{Problema}
+\justifying
+A acessibilidade é um fator decisivo para a efetiva inclusão no
+turismo \cite{UNWTO2016}. Para turistas com deficiência
+ou mobilidade reduzida, não basta apenas saber “o que visitar”,
+mas se os locais dispõem de recursos como rampas, banheiros
+adaptados, piso tátil, sinalização adequada ou rotas sem degraus,
+informações que raramente aparecem nos catálogos disponíveis de
+forma confiável e comparável. Essa lacuna gera barreiras à autonomia
+dos viajantes e reduz o interesse em locais que não evidenciam informações
+sobre acessibilidade. Ainda assim, o tema da acessibilidade permanece como um dos
+aspectos menos contemplados pela maioria dos sistemas de
+recomendação turísticos atuais \cite{santos2019poiaccessibility}.
+Nesse sentido, a personalização aliada à acessibilidade
+torna-se essencial para melhorar a experiência turística e ampliar a
+competitividade econômica do setor \cite{Silva2023}
+
+Portanto, esta pesquisa se propõe a responder à seguinte indagação central:
+Como possibiltar que o turista idoso ou com dediciencia tenha acesso a
+informação sobre pontos turisitcos da cidade de São Luis - MA que estejam de
+acordo com suas preferências e limitações, a fim de promover a devida inclusão
+social, cultural e digital?
+
+% ---------------------------------------------------------------
+% 1.2 JUSTIFICATIVA
+% ---------------------------------------------------------------
+\newpage
+\subsection{Justificativa}
+\justifying
+Avançando nesse caminho, a presente proposta insere a acessibilidade como eixo
+central da personalização,
+transformando informações sobre barreiras e recursos adaptadas para recomendação de
+pontos turísticos coesos com o usuário. Assim,
+não apenas pontos turísticos são sugeridos, mas condições de acessibilidade do
+local e preferências individuais do usuário e do grupo.
+Com isso, o projeto justifica-se pela necessidade de superar as limitações dos
+recomendadores tradicionais, que priorizam popularidade e cliques,
+mas desconsideram variáveis críticas de inclusão \cite{Azambuja2021}.
+Social e legalmente, a proposta materializa princípios da Lei Brasileira de
+Inclusão ao trazer a acessibilidade para o centro do processo decisório
+, academicamente, contribui para a inovação em sistemas de necessidade
+social \cite{brasil2014turismoacessivel} \cite{brasil2015lei13146}.
+
+Diante desse contexto, a proposta do Persona Tour justifica-se pela necessidade
+de promover a inclusão digital e social da pessoa idosa e da pessoa com
+deficiência, no turismo, utilizando a tecnologia como mediadora de experiências
+significativas, seguras e adaptadas às suas limitações e interesses. O
+aplicativo busca não apenas recomendar destinos e pontos de interesse, mas
+também compreender as preferências e necessidades de cada usuário, propondo
+lugares compatíveis com suas motivações, nível de atividade e preferências
+categóricas. Além disso, a interface do aplicativo foca em ser acessível, com
+elementos visuais, tipográficos e interativos adaptados à ergonomia e à
+usabilidade de pessoas idosas, contribuindo para a redução das barreiras de
+acesso à informação turística.
+
+% ---------------------------------------------------------------
+% 1.3 OBJETIVOS
+% ---------------------------------------------------------------
+\newpage
+\subsection{Objetivos}
+\subsubsection{Objetivo Geral}
+Desenvolver um aplicativo móvel de recomendação de pontos turísticos,
+delimitado na recomendação de locais da cidade de São Luís, com foco na
+acessibilidade pessoas com deficiência e idosos.
+
+\subsubsection{Objetivos Específicos}
+\begin{itemize}
+      \item[a.] Investigar técnicas de interface intuitiva para os usuários idosos;
+      \item[b.] Desenvolver uma API para integrar o sistema de recomendação ao aplicativo
+            móvel;
+      \item[c.] Implementar um mínimo produto viável do aplicativo móvel;
+      \item[d.] Avaliar a eficácia do aplicativo por meio de testes com diferentes perfis
+            de usuários, verificando a precisão das recomendações, a adequação às condições
+            de acessibilidade e a percepção de usabilidade
+\end{itemize}

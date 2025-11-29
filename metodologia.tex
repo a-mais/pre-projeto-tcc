@@ -1,0 +1,113 @@
+\section{Metodologia}
+
+\justifying
+
+\subsection{DSR - Design Science Research}
+
+Este trabalho caracteriza-se como uma pesquisa aplicada de natureza
+exploratória e experimental, fundamentada nos princípios da Design Science
+Research (DSR), metodologia reconhecida por sua capacidade de produzir
+artefatos tecnológicos que resolvem problemas concretos enquanto geram
+conhecimento científico. A pesquisa foi estruturada em quatro fases
+interdependentes e iterativas, alinhadas aos objetivos específicos propostos,
+integrando técnicas qualitativas e quantitativas para aplicabilidade prática.
+
+\subsubsection{Fase 1: Investigação de Técnicas de Interface Intuitiva para Usuários Idosos}
+
+A primeira fase concentra-se na compreensão profunda das necessidades e
+limitações do público idoso no contexto de interfaces digitais móveis.
+Iniciou-se com uma revisão sistemática da literatura abrangendo diretrizes de
+acessibilidade para idosos, recomendações de usabilidade específicas para
+dispositivos móveis e estudos sobre interação humano-computador com foco nesse
+público. Foram consultadas as diretrizes WCAG 2.2 (Web Content Accessibility
+Guidelines), adaptadas para o contexto mobile, bem como estudos que investigam
+características visuais, cognitivas e motoras associadas ao envelhecimento.
+
+Paralelamente à revisão bibliográfica, serão conduzidas entrevistas
+semiestruturadas com potenciais usuários com deficiência e idosos, além de
+pessoas que trabalham na área do turismo que atuam com esse público. As
+entrevistas seguirão a metodologia de pesquisa participativa, permitindo
+identificar preferências de design, barreiras de uso e expectativas
+relacionadas a aplicativos turísticos. Os dados coletados deverão ser
+organizados através de análise temática, gerando requisitos preliminares sobre
+tamanho de fonte, contraste de cores, simplicidade de navegação, feedback
+audiovisual e redução de passos para completar tarefas.
+
+\subsubsection{Fase 2: Desenvolvimento da API para Integração com o Sistema de Recomendação}
+
+A segunda fase envolverá o projeto e implementação de uma \textit{Application
+    Programming Interface} (API) REST responsável pela comunicação entre o
+aplicativo móvel, o sistema de recomendação e o banco de dados.
+
+API de Negócios (Java Spring Boot): Responsável pela lógica de negócio completa do aplicativo, incluindo autenticação de usuários, processamento do questionário BFI, integração com a FastAPI Python, gerenciamento de dados de acessibilidade, sistema de comentários e avaliações colaborativas, e persistência de dados em PostgreSQL. Implementa requisitos rigorosos de segurança através de autenticação JWT, validação de entrada, CORS configurado, e criptografia de dados sensíveis (AES-256 em repouso, TLS 1.3 em trânsito).
+
+A validação das APIs incluirá, testes de segurança para identificar
+vulnerabilidades, testes funcionais para garantir integração correta entre as
+camadas, e testes de conformidade com LGPD.
+
+\subsubsection{Fase 3: Implementação do Mínimo Produto Viável (MVP) do Aplicativo Móvel}
+
+A terceira fase consistirá no desenvolvimento do MVP do aplicativo Flutter,
+seguindo a metodologia ágil de desenvolvimento em ciclos iterativos curtos que
+permitem ajustes contínuos baseados em feedback.
+
+As funcionalidades essenciais implementadas no MVP incluirão: (1) tela de
+cadastro e autenticação de usuários com validação segura; (2) questionário
+digital baseado no modelo BFI para captura de traços de personalidade; (3)
+interface para visualização de pontos turísticos recomendados com indicadores
+de acessibilidade (presença de rampas, elevadores, banheiros adaptados,
+sinalização tátil); (4) link para mapa interativo mostrando localização dos
+pontos; (5) sistema de filtros considerando preferências pessoais e
+necessidades de acessibilidade; (6) criação de listas de pontos turísticos
+compartilháveis entre usuários; (7) sistema de avaliação colaborativo onde
+usuários relatam experiências de acessibilidade e comentam sobre pontos
+turísticos.
+
+A interface será projetada considerando os requisitos levantados na Fase 1,
+implementando elementos como botões grandes com áreas de toque ampliadas,
+fontes ajustáveis (mínimo 16pt), alto contraste entre texto e fundo (4,5:1),
+navegação simplificada com poucos níveis hierárquicos, feedback claro para cada
+ação do usuário, e suporte a recursos nativos de acessibilidade (VoiceOver no
+iOS e TalkBack no Android). A prototipação será realizada utilizando
+ferramentas de design como Figma, permitindo validação visual antes da
+codificação.
+
+\subsubsection{Fase 4: Avaliação da Eficácia do Aplicativo através de Testes com Usuários}
+
+A fase final foca na validação do aplicativo através de testes de usabilidade e
+aceitação com diferentes perfis de usuários. A amostra será selecionada por
+conveniência, incluindo: pessoas idosas com diferentes níveis de familiaridade
+com tecnologia; pessoas com deficiência física ou mobilidade reduzida; e
+profissionais de turismo e acessibilidade que atuam como validadores técnicos.
+
+Os testes serão realizados em ambiente controlado permitindo observação direta
+da interação dos usuários com o aplicativo. Tarefas pré-definidas incluem:
+realizar cadastro, responder ao questionário de personalidade, visualizar
+recomendações, filtrar pontos por critérios de acessibilidade, e observar
+comentários de outros usuários. Os resultados serão registrados para análise
+posterior da eficácia do sistema.
+
+A avaliação da precisão das recomendações envolverá análise comparativa entre
+as sugestões geradas pelo sistema e as preferências reais declaradas pelos
+participantes em questionário pós-teste, calculando métricas de acurácia e
+relevância. A adequação às condições de acessibilidade será verificada
+confrontando as informações apresentadas pelo aplicativo com dados reais dos
+estabelecimentos turísticos.
+
+Dados quantitativos serão analisados através de estatística descritiva
+utilizando ferramentas como R ou Python. Dados qualitativos (transcrições de
+entrevistas, observações dos testes de usabilidade) serão submetidos à análise
+de conteúdo temática, identificando padrões recorrentes, dificuldades comuns e
+sugestões de melhorias, atendendo simultaneamente aos requisitos técnicos de
+integração com sistemas de recomendação inteligentes e às necessidades reais de
+acessibilidade e usabilidade do público-alvo.
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{./figuras/fluxograma.jpg}{%
+        \includegraphics[width=1\textwidth]{./figuras/fluxograma.jpg}%
+    }{%
+        \fbox{\begin{minipage}[c][0.3\textheight][c]{1\textwidth}\centering Arquivo de figura ausente: figuras/arquitetura.pdf \end{minipage}}%
+    }
+    \caption{Figura que ilustra o fluxograma das fases da metodologia. Fonte: Autor.}
+\end{figure}
